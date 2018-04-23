@@ -9,6 +9,8 @@ use App\Article;
 use App\Tag;
 use App\Category;
 use App\Comentarios;
+use App\Pago;
+
 
 class ExcelController extends Controller
 {
@@ -168,5 +170,72 @@ class ExcelController extends Controller
 		})->export('xlsx');
 		
 	}
+
+
+	public function exportpagosok(Request $request){
+
+		Excel::create('TablaPagosOk', function($excel) {
+	 
+	    	$pagos = Pago::orderBy('id','ASC')->where('cantidad', '=', 50)->get();
+
+	    	//$pagos = Pago::orderBy('id','ASC')->where('cantidad', '<', 50)->get();
+	 		
+	    	//dd($pagos);
+
+		    $excel->sheet('TablaPagosOk', function($sheet) use($pagos) {
+	 
+		    	
+		    	/*$sheet->row(1, [
+    				'ID', 'Nombre', 'Email', 'Fecha de Creación', 'Fecha de Actualización', 'User','Avatar'
+				]);*/
+
+		    	foreach($pagos as $index => $pago) {
+    				$sheet->row($index+2, [
+        				$pago->id, $pago->cantidad, $pago->socio_id, $pago->created_at, $pago->updated_at
+    				]); 
+				}
+
+
+		    	$sheet->fromArray($pagos);
+ 
+			});
+ 
+		})->export('xlsx');
+
+	}
+
+
+	public function exportpagosno(Request $request){
+
+		Excel::create('TablaPagosNo', function($excel) {
+	 
+	    	$pagos = Pago::orderBy('id','ASC')->where('cantidad', '<', 50)->get();
+
+	    	//$pagos = Pago::orderBy('id','ASC')->where('cantidad', '<', 50)->get();
+	 		
+	    	//dd($pagos);
+
+		    $excel->sheet('TablaPagosNo', function($sheet) use($pagos) {
+	 
+		    	
+		    	/*$sheet->row(1, [
+    				'ID', 'Nombre', 'Email', 'Fecha de Creación', 'Fecha de Actualización', 'User','Avatar'
+				]);*/
+
+		    	foreach($pagos as $index => $pago) {
+    				$sheet->row($index+2, [
+        				$pago->id, $pago->cantidad, $pago->socio_id, $pago->created_at, $pago->updated_at
+    				]); 
+				}
+
+
+		    	$sheet->fromArray($pagos);
+ 
+			});
+ 
+		})->export('xlsx');
+
+	}
+
 
 }

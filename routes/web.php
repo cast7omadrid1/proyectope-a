@@ -367,7 +367,7 @@ Route::put('updatepagos/{id}/update',[
 ]);
 
 
-//ruta para eliminar un comentarios
+//ruta para eliminar un pagos
 Route::get('eliminarpagos/{id}/destroy',[
 
 	'uses'=>'ListapagosController@destroy',
@@ -375,6 +375,12 @@ Route::get('eliminarpagos/{id}/destroy',[
 
 ]);
 
+
+/*Ruta exportar tabla excel*/
+Route::get('/excel_pagosok', 'ExcelController@exportpagosok')->name('admin.excel_pagosok');
+
+/*Ruta exportar tabla excel*/
+Route::get('/excel_pagosno', 'ExcelController@exportpagosno')->name('admin.excel_pagosno');
 
 
 

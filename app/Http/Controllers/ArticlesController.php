@@ -75,7 +75,6 @@ class ArticlesController extends Controller
 
         $tags = Tag::orderBy('name','ASC')->pluck('name','id');
 
-       
 
         return view('admin.articles.create')->with('categories',$categories)->with('tags',$tags);
 

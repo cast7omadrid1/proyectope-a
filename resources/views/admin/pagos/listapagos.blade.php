@@ -49,9 +49,16 @@
 			</div>
 			<hr><a href="{{route('pagos.create')}}" onmouseover="javascript:this.style.backgroundColor='#19F0DB';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn btn-primary botonpaneladmin">Añadir pago</a>
 			
+			<a href="{{route('admin.excel_pagosok')}}" onmouseover="javascript:this.style.backgroundColor='#19F0DB';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn btn-primary botonpaneladmin">Exportar excel pago ok</a>
+	
+			<a href="{{route('admin.excel_pagosno')}}" onmouseover="javascript:this.style.backgroundColor='#19F0DB';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn btn-primary botonpaneladmin">Exportar excel por pagar</a>
+
+
+		</div>
+
 			</br>
 			
-		</div>
 	</div>
+	
 	
 @endsection

@@ -147,7 +147,7 @@
                                             Home
                                         </a>
                                          @if (Auth::user()->user == 1 )
-                                         <a href="{{url('inicioadmin')}}">
+                                         <a href="{{url('/listausuarios')}}">
                                             Panel admin
                                           </a>
                                         @endif
