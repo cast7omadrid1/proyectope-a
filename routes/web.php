@@ -344,7 +344,7 @@ Route::get('/excel_comentarios', 'ExcelController@exportcomentarios')->name('adm
 
 
 
-//ruta para listado de usuarios
+//ruta para listado de pagos
 Route::resource('pagos','ListapagosController');
 
 //ruta para el listado de pagos en panel admin
@@ -384,3 +384,34 @@ Route::get('/excel_pagosno', 'ExcelController@exportpagosno')->name('admin.excel
 
 
 
+//ruta para listado de compras
+Route::resource('compras','ComprasController');
+
+
+//ruta para el listado de compras en panel admin
+Route::get('/listacompras','ComprasController@index')->name('compras.listacompras');
+
+
+Route::get('editarcompras/{id}/edit',[
+
+	'uses'=>'ComprasController@edit',
+	'as'=>'admin.compras.edit',
+
+]);
+
+
+Route::put('updatecompras/{id}/update',[
+
+	'uses'=>'ComprasController@update',
+	'as'=>'admin.compras.update',
+
+]);
+
+
+//ruta para eliminar ua compra
+Route::get('eliminarcompras/{id}/destroy',[
+
+	'uses'=>'ComprasController@destroy',
+	'as' => 'admin.compras.destroy',
+
+]);

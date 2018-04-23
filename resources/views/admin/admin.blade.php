@@ -173,6 +173,9 @@
                 <a href="{{ url('/listapagos') }}">Pagos</a>
               </li>
               <li>
+                <a href="{{url('/listacompras')}}">Compras</a>
+              </li>
+              <li>
                 <a href="{{url('/listaarticulos')}}">Imágenes</a>
               </li>
               <li>

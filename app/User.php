@@ -52,6 +52,14 @@ class User extends Authenticatable
     }
 
 
+    //un usuario puede hacer varias compras
+    public function compra(){
+
+        return $this->hasMany('App\Compra','usuario_id','id');
+
+    }
+
+
     public function scopeSearch($query, $name){
 
         //nombre  de la columna donde busca, 'como', contenido que va a buscar

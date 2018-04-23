@@ -25,6 +25,7 @@
 						<th>Número socio</th>
 						<th>Cantidad</th>
 						<th>Fecha</th>
+						<th>Acción</th>
 					</thead>
 					<tbody>
 						@foreach($pagos as $pago)
@@ -32,7 +33,7 @@
 								<td>{{$pago->id}}</td>
 								<td>{{$pago->user->name}}</td>
 								<td>{{$pago->socio_id}}</td>
-								<td>{{$pago->cantidad}}</td>
+								<td>{{$pago->cantidad}} €</td>
 								<td>{{$pago->created_at}}</td>
 								<td>
 									<!--Botones para editar y eliminar articulos-->

@@ -6,7 +6,19 @@ use Illuminate\Database\Eloquent\Model;
 
 class Compra extends Model
 {
-     protected $table = "compras";
+    protected $table = "compras";
 
-    protected $fillable = ['cantidad','socio_id'];
+    protected $fillable = ['producto','marca','cantidad','precio','usuario_id'];
+
+    //un pago pertenece a un solo usuario
+    public function user(){
+
+    	return $this->belongsTo('App\User','usuario_id','id');
+
+    }
+
+
+
+    
+
 }

@@ -12,9 +12,8 @@
     <div class="row">
                      
 
-                    <div class="col-md-8">
-                        
-                        <div class="row">
+                    <div class="col-md-8 ">
+                        <div class="row ">
                           
                           @foreach($articles as $article)
                           <div class="col-md-6 leftimage ">
@@ -24,6 +23,8 @@
                                 <a href="{{ asset('images/articulos/'.$image->name) }}" rel="lightbox" title="{{$article->description}}">  
                                   <img src="{{ asset('images/articulos/'.$image->name) }}" title="{{$article->description}}" class=" img-rounded sizeimage" alt="...">
                                 </a>
+
+
                               @endforeach 
                               </div>     
                               <div class="caption">
@@ -31,13 +32,11 @@
                                 
                                 <a href="{{route('search.category', $article->category->name)}}">
                                   {{$article->category->name}}
+
+                                    
                                 </a>
-                               
-                              <!--Mostramos hace cuanto se ha creado el ultimo articulo-->
-                                <i>{{$article->created_at->diffForHumans()}}</i></br>
-
-
-                              <p id='mostrar'><a href="javascript:mostrar(this,{{$article->id}});"><span > {{$article->comentario->count()}} comentarios</span></a></p>
+                            
+                               <p id='mostrar'><a href="javascript:mostrar(this,{{$article->id}});"><span > {{$article->comentario->count()}} comentarios</span></a></p>
 
 
                                   <div id="flotante_{{$article->id}}" style="display:none;">
@@ -61,22 +60,8 @@
                                   {{Form::submit('Enviar comentario',['class'=>'btn btn-primary'])}}
                                 </div>
                               {{Form::close()}}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                              
+                                
 
 
                                 @if (Auth::user()->user == 1 )
@@ -85,10 +70,13 @@
                                   <a href="{{route('admin.articles.editcategoryone', $article->id)}}" onmouseover="javascript:this.style.backgroundColor='#19F0DB';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn btn-primary ">Editar</a>
                                 @endif
                                 
-
-
-
                                 <a href="{{route('admin.articles.destroy',$article->id)}}" class="btn btn-success" onclick="return confirm('¿Estas seguro de eliminar este articulo?')">Eliminar</a>
+
+
+                                <!--Mostramos hace cuanto se ha creado el ultimo articulo-->
+                                <br/><i>{{$article->created_at->diffForHumans()}}</i> 
+
+
                               </div>    
                             </div>
                           </div>
