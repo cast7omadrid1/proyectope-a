@@ -415,3 +415,6 @@ Route::get('eliminarcompras/{id}/destroy',[
 	'as' => 'admin.compras.destroy',
 
 ]);
+
+/*Ruta exportar tabla excel*/
+Route::get('/excel_compras', 'ExcelController@excelcompras')->name('admin.excel_compras');

@@ -4,13 +4,14 @@
 
 
 	<div class="col-xs-12">
-	 	  <h2 class="tituloseccion tituloeventos" onmouseover="javascript:this.style.color='#19F0DB';" onmouseout="javascript:this.style.color='#00D2A8';">Listado pagos</h2>
+	 	  <!--<h2 class="tituloseccion tituloeventos" onmouseover="javascript:this.style.color='#19F0DB';" onmouseout="javascript:this.style.color='#00D2A8';">Listado pagos</h2>-->
+	 	  <h4 class="classic-title tituloseccion" onmouseover="javascript:this.style.color='#00D2A8';" onmouseout="javascript:this.style.color='#262626';"><span>Listado pagos</span></h4>
 	</div>
 
 	<!--Buscador de comentarios-->
 	{{Form::open(['route' => 'pagos.index','method' => 'GET', 'class' => 'navbar-form pull-right'])}}
 	<div class="input-group">
-		{{Form::text('pagos',null,['class'=>'form-control','placeholder'=>'Buscar pago','aria-describedby'=>'search'])}}
+		{{Form::text('pagos',null,['class'=>'form-control','placeholder'=>'Buscar pago socio','aria-describedby'=>'search'])}}
 		<span class="input-group-addon" id="search"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></span>
 	</div>
 	{{Form::close()}}

@@ -36,6 +36,10 @@ class UserRequest extends FormRequest
             //'email'=> Rule::unique('users')->ignore('$user->id'),
             
             'user'  => 'boolean',
+
+            'password' => 'min:8|required',
+
+            'socio' => 'nullable',
         ];
     }
 }

@@ -10,7 +10,7 @@ use App\Tag;
 use App\Category;
 use App\Comentarios;
 use App\Pago;
-
+use App\Compra;
 
 class ExcelController extends Controller
 {
@@ -230,6 +230,38 @@ class ExcelController extends Controller
 
 
 		    	$sheet->fromArray($pagos);
+ 
+			});
+ 
+		})->export('xlsx');
+
+	}
+
+	public function excelcompras(Request $request){
+
+		Excel::create('TablaCompras', function($excel) {
+	 
+	    	$compras = Compra::all();
+
+	    	//$pagos = Pago::orderBy('id','ASC')->where('cantidad', '<', 50)->get();
+	 		
+	    	//dd($pagos);
+
+		    $excel->sheet('TablaCompras', function($sheet) use($compras) {
+	 
+		    	
+		    	/*$sheet->row(1, [
+    				'ID', 'Nombre', 'Email', 'Fecha de Creación', 'Fecha de Actualización', 'User','Avatar'
+				]);*/
+
+		    	foreach($compras as $index => $compra) {
+    				$sheet->row($index+2, [
+        				$compra->id, $compra->producto, $compra->marca, $compra->cantidad,$compra->precio ,$compra->usuario_id ,$compra->created_at, $compra->updated_at
+    				]); 
+				}
+
+
+		    	$sheet->fromArray($compras);
  
 			});
  

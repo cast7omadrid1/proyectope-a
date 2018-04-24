@@ -3,7 +3,8 @@
 @section('contenido')
 
 <div class="col-xs-12">
- 	  <h2 class="tituloseccion tituloeventos" onmouseover="javascript:this.style.color='#19F0DB';" onmouseout="javascript:this.style.color='#00D2A8';">Listado categorias</h2>
+ 	  <!--<h2 class="tituloseccion tituloeventos" onmouseover="javascript:this.style.color='#19F0DB';" onmouseout="javascript:this.style.color='#00D2A8';">Listado categorias</h2>-->
+ 	  <h4 class="classic-title tituloseccion" onmouseover="javascript:this.style.color='#00D2A8';" onmouseout="javascript:this.style.color='#262626';"><span>Listado categorias</span></h4>
 </div>
 
 <!--Buscador de categorias-->

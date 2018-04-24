@@ -14,9 +14,12 @@
                     <div class="row ">
                     <!--Titulo de la galería de imagenes-->
                     <div class="col-xs-12">
-                      <h2 class="tituloseccion " onmouseover="javascript:this.style.color='#19F0DB';" onmouseout="javascript:this.style.color='#00D2A8';">Galeria de imágenes</h2>
+                      <!--<h2 class="tituloseccion " onmouseover="javascript:this.style.color='#19F0DB';" onmouseout="javascript:this.style.color='#00D2A8';">Galeria de imágenes</h2>-->
+                      <h4 class="classic-title tituloseccion" onmouseover="javascript:this.style.color='#00D2A8';" onmouseout="javascript:this.style.color='#262626';"><span>Galeria de imágenes</span></h4>
                     </div>
                     
+
+
                     <!--botón para añadir imagenes-->
 
                     @if (Auth::user()->user == 1 )

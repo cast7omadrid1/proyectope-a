@@ -3,8 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Http\Requests;
-
+//use App\Http\Requests;
+use App\Http\Requests\CompraRequest;
 use App\Http\Controllers\Controller;
 use App\Compra;
 use App\User;
@@ -16,11 +16,13 @@ class ComprasController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
-         $compras=Compra::orderBy('id','DESC')->paginate(5);
-
         
+        $compras=Compra::Search($request->compras)->orderBy('id','DESC')->paginate(5);
+
+
+
         $compras->each(function($compras){ 
             $compras->user;
         });
@@ -52,7 +54,7 @@ class ComprasController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(CompraRequest $request)
     {
         $compras = new Compra($request->all());
         $compras->save();

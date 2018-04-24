@@ -4,7 +4,6 @@
 
 
 
-
 	<!--La ruta hace referencia al metodo utilizado por el formulario-->
 	{{Form::open(['route'=>'pagos.store','method'=>'POST','files'=>true])}}
 		

@@ -27,7 +27,12 @@
 					<!--admin o no-->
 		    		<div class='form-group'>
 						{{Form::label('user','Tipo usuario')}}
-						{{Form::text('user',$user->user,['class'=>'form-control','placeholder'=>'1(admin) || 0(user)','required'])}}
+						{{Form::text('user',$user->user,['class'=>'form-control','placeholder'=>'1(admin)|| 0(user)','required'])}}
+					</div>
+
+					<div class='form-group'>
+						{{Form::label('socio','Número socio')}}
+						{{Form::text('socio',$user->socio,['class'=>'form-control','placeholder'=>'Número de socio','required'])}}
 					</div>
 
 					<!--botón submnit-->

@@ -28,7 +28,7 @@ class ListausuariosController extends Controller
 
     }
     
-    public function store(Request $request){
+    public function store(UserRequest $request){
         
         
         $users = new User($request->all());

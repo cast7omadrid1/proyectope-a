@@ -8,9 +8,9 @@
 /*------------------------------------------*/
 /*estilo para titulo secciones*/
 .tituloseccion{
-	font-family: 'Sans-Serif', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 24px;
-	color:#00D2A8; /*verde principal*/
+	color:#262626; /*verde principal*/
 	padding-left: 150px;
 	/*text-decoration: underline;*/
 	padding-top: 30px;
