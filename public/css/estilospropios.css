@@ -130,5 +130,23 @@ h2:hover{
 
 
 
+/*------------------------------------------*/
+/*	 03 - Estilos para organigrama
+/*------------------------------------------*/
+.centro{
+	text-align: center;
+}
 
 
+.socialcenter{
+	padding-right: 110px;
+}
+
+
+.socialpresidente{
+	padding-right: 460px;
+}
+
+.altura{
+	padding-top: 20px;
+}

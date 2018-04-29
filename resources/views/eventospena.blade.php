@@ -29,9 +29,9 @@
         </div>-->
 
          <div class="col-xs-12 col-sm-6 col-md-8">
-        <h4 class="classic-title tituloseccion" onmouseover="javascript:this.style.color='#00D2A8';" onmouseout="javascript:this.style.color='#262626';"><span>Nuestros eventos ¡Visitanos!</span></h4>
-
-      </div>
+            <h4 class="classic-title tituloseccion" onmouseover="javascript:this.style.color='#00D2A8';" onmouseout="javascript:this.style.color='#262626';"><span>Nuestros eventos ¡Visitanos!</span></h4>
+        </div>
+        
         <h4 class="classic-title tituloseccion tituloredes" onmouseover="javascript:this.style.color='#00D2A8';" onmouseout="javascript:this.style.color='#262626';"><span>Nuestros eventos ¡Visitanos!</span></h4>
         <!--<h2 class="tituloseccion tituloredes" onmouseover="javascript:this.style.color='#19F0DB';" onmouseout="javascript:this.style.color='#00D2A8';">Nuestras redes sociales</h2>-->  
 
@@ -144,10 +144,10 @@
         </div>-->
 
          <div class="col-xs-12 col-sm-6 col-md-8">
-        <h4 class="classic-title tituloseccion" onmouseover="javascript:this.style.color='#19F0DB';" onmouseout="javascript:this.style.color='#00D2A8';"><span>Nuestros eventos ¡Visitanos!</span></h4>
-
-      </div>
-        <h4 class="classic-title tituloseccion tituloredes" onmouseover="javascript:this.style.color='#19F0DB';" onmouseout="javascript:this.style.color='#00D2A8';"><span>Nuestros eventos ¡Visitanos!</span></h4>
+            <h4 class="classic-title tituloseccion" onmouseover="javascript:this.style.color='#00D2A8';" onmouseout="javascript:this.style.color='#262626';"><span>Nuestros eventos ¡Visitanos!</span></h4>
+        </div>
+        
+        <h4 class="classic-title tituloseccion tituloredes" onmouseover="javascript:this.style.color='#00D2A8';" onmouseout="javascript:this.style.color='#262626';"><span>Nuestros eventos ¡Visitanos!</span></h4>
         <!--<h2 class="tituloseccion tituloredes" onmouseover="javascript:this.style.color='#19F0DB';" onmouseout="javascript:this.style.color='#00D2A8';">Nuestras redes sociales</h2>--> 
                      
                     <div class="col-md-8">
