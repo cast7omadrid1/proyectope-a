@@ -15,9 +15,12 @@
 
       <div class="row">
         <div class="col-lg-12">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Presidente</h2><span>Avatar 1</span>
-          <p>Presidente de la peña y primer miembro de la junta deportiva Soccer adicts</p>
+          @foreach($avatar1 as $avatar)
+            <img class="img-circle" src="{{asset('uploads/avatars/'.$avatar->avatar)}}" alt="Generic placeholder image" width="140" height="140">
+          
+          <h2>Presidente</h2><span>{{$avatar->name}}</span>
+          @endforeach
+          <p>Presidente de la peña y primer miembro de la junta de la peña deportiva Soccer adicts</p>
           <ul class="social-list socialpresidente">
                 <li>
                   <a class="facebook itl-tooltip" data-placement="bottom" title="Facebook" href="#"><i class="fa fa-facebook"></i></a>
@@ -31,8 +34,11 @@
           </ul>
         </div>
         <div class="col-lg-4 altura">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Vicepresidente</h2><span>Avatar 2</span>
+          @foreach($avatar2 as $avatar)
+            <img class="img-circle" src="{{asset('uploads/avatars/'.$avatar->avatar)}}" alt="Generic placeholder image" width="140" height="140">
+          
+          <h2>Vicepresidente</h2><span>{{$avatar->name}}</span>
+          @endforeach
           <p>Vicepresidente y segundo miembro de la junta de la peña deportiva Soccer adicts</p>
           <ul class="social-list socialcenter">
                 <li>
@@ -47,8 +53,11 @@
           </ul>
         </div> 
         <div class="col-lg-4 altura">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Tesorero</h2><span>Avatar 3</span>
+          @foreach($avatar3 as $avatar)
+            <img class="img-circle" src="{{asset('uploads/avatars/'.$avatar->avatar)}}" alt="Generic placeholder image" width="140" height="140">
+          
+          <h2>Tesorero</h2><span>{{$avatar->name}}</span>
+          @endforeach
           <p>Tesorero de la peña y tercer miembro de la junta deportiva Soccer adicts</p>
           
            <ul class="social-list socialcenter">
@@ -64,8 +73,11 @@
           </ul>
         </div>
         <div class="col-lg-4 altura">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Miembro de la junta</h2><span>Avatar 4</span>
+          @foreach($avatar4 as $avatar)
+            <img class="img-circle" src="{{asset('uploads/avatars/'.$avatar->avatar)}}" alt="Generic placeholder image" width="140" height="140">
+          
+          <h2>Miembro de la junta</h2><span>{{$avatar->name}}</span>
+          @endforeach
           <p>Cuarto miembro de la junta de la peña deportiva Soccer adicts</p>
           
            <ul class="social-list socialcenter">
@@ -81,8 +93,10 @@
           </ul>
         </div>
         <div class="col-lg-4 altura">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Miembro compromisario</h2><span>Avatar 5</span>
+          @foreach($avatar5 as $avatar)
+            <img class="img-circle" src="{{asset('uploads/avatars/'.$avatar->avatar)}}" alt="Generic placeholder image" width="140" height="140">
+          <h2>Miembro compromisario</h2><span>{{$avatar->name}}</span>
+          @endforeach
           <p>Miembro compromisario de la peña deportiva Soccer adicts</p>
           <ul class="social-list socialcenter">
                 <li>
@@ -97,8 +111,10 @@
           </ul>
         </div> 
         <div class="col-lg-4 altura">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Miembro compromisario</h2><span>Avatar 6</span>
+          @foreach($avatar6 as $avatar)
+            <img class="img-circle" src="{{asset('uploads/avatars/'.$avatar->avatar)}}" alt="Generic placeholder image" width="140" height="140">
+          <h2>Miembro compromisario</h2><span>{{$avatar->name}}</span>
+          @endforeach
           <p>Miembro compromisario de la peña deportiva Soccer adicts</p>
           <ul class="social-list socialcenter">
                 <li>
@@ -113,8 +129,10 @@
           </ul>
         </div> 
         <div class="col-lg-4 altura">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Miembro compromisario</h2><span>Avatar 7</span>
+          @foreach($avatar7 as $avatar)
+            <img class="img-circle" src="{{asset('uploads/avatars/'.$avatar->avatar)}}" alt="Generic placeholder image" width="140" height="140">
+          <h2>Miembro compromisario</h2><span>{{$avatar->name}}</span>
+          @endforeach
           <p>Miembro compromisario de la peña deportiva Soccer adicts</p>
           <ul class="social-list socialcenter">
                 <li>
@@ -129,8 +147,11 @@
           </ul>
         </div> 
         <div class="col-lg-4 altura">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Primer vocal</h2><span>Avatar 8</span>
+          @foreach($avatar8 as $avatar)
+            <img class="img-circle" src="{{asset('uploads/avatars/'.$avatar->avatar)}}" alt="Generic placeholder image" width="140" height="140">
+          
+          <h2>Primer vocal</h2><span>{{$avatar->name}}</span>
+          @endforeach
           <p>Primer vocal de la peña deportiva Soccer adicts</p>
           <ul class="social-list socialcenter">
                 <li>
@@ -145,8 +166,11 @@
           </ul>
         </div> 
         <div class="col-lg-4 altura">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Segundo vocal</h2><span>Avatar 9</span>
+          @foreach($avatar9 as $avatar)
+            <img class="img-circle" src="{{asset('uploads/avatars/'.$avatar->avatar)}}" alt="Generic placeholder image" width="140" height="140">
+          
+          <h2>Segundo vocal</h2><span>{{$avatar->name}}</span>
+          @endforeach
           <p>Segundo vocal de la peña deportiva Soccer adicts</p>
           <ul class="social-list socialcenter">
                 <li>
@@ -161,8 +185,10 @@
           </ul>
         </div> 
         <div class="col-lg-4 altura">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Tercer vocal</h2><span>Avatar 10</span>
+          @foreach($avatar10 as $avatar)
+            <img class="img-circle" src="{{asset('uploads/avatars/'.$avatar->avatar)}}" alt="Generic placeholder image" width="140" height="140">
+          <h2>Tercer vocal</h2><span>{{$avatar->name}}</span> 
+          @endforeach
           <p>Tercer vocal de la peña deportiva Soccer adicts</p>
           <ul class="social-list socialcenter">
                 <li>

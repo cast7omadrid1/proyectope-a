@@ -1,7 +1,7 @@
               
                         
 
-                        <div class="panel panel-primary">
+                        <div class="panel panel-primary sombra">
                           <div class="panel-heading leftname">
                             <h3 class="panel-title ">Categorias</h3>
                           </div>
@@ -22,7 +22,7 @@
 
                         </div>
 
-                        <div class="panel panel-primary">
+                        <div class="panel panel-primary sombra">
                           <div class="panel-heading leftname">
                             <h3 class="panel-title">Tags</h3>
                           </div>

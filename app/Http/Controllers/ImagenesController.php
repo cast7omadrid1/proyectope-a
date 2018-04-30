@@ -90,13 +90,21 @@ class ImagenesController extends Controller
 		
 		$articles = $category->articles()->paginate(6);
 
-		
-
 		$articles->each(function($articles){
 			$articles->category;
 			$articles->images;
 		});
 
+
+		$comentarios = Comentarios::orderBy('id','ASC')->paginate(10);
+		  //dd($comentarios);
+
+		
+		$comentarios->each(function($comentarios){
+			
+			$comentarios->article;
+			$comentarios->user;
+		});
 
 		return View('zonamultimedia')->with('articles',$articles);
 		

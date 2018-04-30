@@ -68,7 +68,12 @@ Route::put('storecomentarios/{id}/store',[
 Route::get('/noticias','NoticiasController@noticias');
 
 //ruta para el noticias
-Route::get('/organigrama','OrganigramaController@organigrama');
+Route::get('/organigrama','OrganigramaController@index');
+
+
+
+
+
 
 //ruta para el zona multimedia
 //Route::get('/zonamultimedia','ZonaMultimediaController@zonamultimedia')->name('zonamultimedia');

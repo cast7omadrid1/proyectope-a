@@ -32,7 +32,7 @@
             <h4 class="classic-title tituloseccion" onmouseover="javascript:this.style.color='#00D2A8';" onmouseout="javascript:this.style.color='#262626';"><span>Nuestros eventos ¡Visitanos!</span></h4>
         </div>
         
-        <h4 class="classic-title tituloseccion tituloredes" onmouseover="javascript:this.style.color='#00D2A8';" onmouseout="javascript:this.style.color='#262626';"><span>Nuestros eventos ¡Visitanos!</span></h4>
+        <h4 class="classic-title tituloseccion tituloredes" onmouseover="javascript:this.style.color='#00D2A8';" onmouseout="javascript:this.style.color='#262626';"><span>Nuestras redes sociales</span></h4>
         <!--<h2 class="tituloseccion tituloredes" onmouseover="javascript:this.style.color='#19F0DB';" onmouseout="javascript:this.style.color='#00D2A8';">Nuestras redes sociales</h2>-->  
 
                     <div class="col-md-8">
@@ -41,7 +41,7 @@
                           
                           @foreach($articles as $article)
                           <div class="col-md-6 leftimage">
-                            <div class="thumbnail">
+                            <div class="thumbnail sombra">
                               <div class="panel-body ">
                               @foreach($article->image as $image)
                                 
@@ -147,7 +147,7 @@
             <h4 class="classic-title tituloseccion" onmouseover="javascript:this.style.color='#00D2A8';" onmouseout="javascript:this.style.color='#262626';"><span>Nuestros eventos ¡Visitanos!</span></h4>
         </div>
         
-        <h4 class="classic-title tituloseccion tituloredes" onmouseover="javascript:this.style.color='#00D2A8';" onmouseout="javascript:this.style.color='#262626';"><span>Nuestros eventos ¡Visitanos!</span></h4>
+        <h4 class="classic-title tituloseccion tituloredes" onmouseover="javascript:this.style.color='#00D2A8';" onmouseout="javascript:this.style.color='#262626';"><span>Nuestras redes sociales</span></h4>
         <!--<h2 class="tituloseccion tituloredes" onmouseover="javascript:this.style.color='#19F0DB';" onmouseout="javascript:this.style.color='#00D2A8';">Nuestras redes sociales</h2>--> 
                      
                     <div class="col-md-8">
@@ -156,7 +156,7 @@
                           
                           @foreach($articles as $article)
                           <div class="col-md-6 leftimage ">
-                            <div class="thumbnail ">
+                            <div class="thumbnail sombra">
                               <div class="panel-body ">
                               @foreach($article->image as $image)
                                  

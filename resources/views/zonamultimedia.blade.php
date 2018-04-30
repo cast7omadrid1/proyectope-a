@@ -9,7 +9,6 @@
           @if (Auth::check())
           @if (Auth::user()->user == 0 || Auth::user()->user == 1)
                     
-                    
 
                     <div class="row ">
                     <!--Titulo de la galería de imagenes-->
@@ -18,7 +17,6 @@
                       <h4 class="classic-title tituloseccion" onmouseover="javascript:this.style.color='#00D2A8';" onmouseout="javascript:this.style.color='#262626';"><span>Galeria de imágenes</span></h4>
                     </div>
                     
-
 
                     <!--botón para añadir imagenes-->
 
@@ -37,7 +35,7 @@
                           
                           @foreach($articles as $article)
                           <div class="col-md-6 leftimage ">
-                            <div class="thumbnail ">
+                            <div class="thumbnail sombra">
                               <div class="panel-body ">
                               @foreach($article->image as $image)
                                 <a href="{{ asset('images/articulos/'.$image->name) }}" rel="lightbox" title="{{$article->description}}">  
@@ -132,7 +130,7 @@
                           
                           @foreach($articles as $article)
                           <div class="col-md-6 leftimage ">
-                            <div class="thumbnail ">
+                            <div class="thumbnail sombra">
                               <div class="panel-body ">
                               @foreach($article->image as $image)
                               

@@ -6,7 +6,7 @@
       <div class="col-md-8 col-md-offset-2">
         
         <!--Obtenemos la imagen del perfil actual-->
-        <img width="100px" height="100px" src="{{ asset('uploads/avatars/'.$user->avatar) }}">
+        <img class='img-circle' width="140px" height="140px" src="{{ asset('uploads/avatars/'.$user->avatar) }}">
         <h2>{{ $user->name }}</h2>
         <h4>Edita tu avatar</h4>
         
