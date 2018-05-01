@@ -39,6 +39,7 @@
                     </div>
                     
     {{Form::close()}}
+            <a href="{{route('admin.listausuarios')}}" class="btn btn-primary"><span class="glyphicon glyphicon glyphicon-arrow-left"></span></a>
                     </div>
                 </div>
             </div>

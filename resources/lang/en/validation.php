@@ -158,7 +158,7 @@ return [
         'array'   => 'The :attribute must have between :min and :max items.',
     ],
     'boolean'              => 'El :attribute debe ser 0 o 1 .',
-    'confirmed'            => 'The :attribute confirmation does not match.',
+    'confirmed'            => 'La :attribute  no coinciden.',
     'date'                 => 'The :attribute is not a valid date.',
     'date_format'          => 'The :attribute does not match the format :format.',
     'different'            => 'The :attribute and :other must be different.',

@@ -3,8 +3,9 @@
 @section('content')
 
 
+
 <!--Formulario para la edición -->
-{{Form::open(['route' => ['admin.listausuarios.update',$user->id], 'files' => true, 'method' => 'PUT']) }}
+{{Form::open(['route' => ['admin.usercontroller.update',$user->id], 'files' => true, 'method' => 'PUT']) }}
 	<div class="container">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
@@ -21,27 +22,15 @@
 						{{Form::label('email','Dirección email')}}
 						{{Form::text('email',$user->email,['class'=>'form-control','placeholder'=>'example@gmail.com','required'])}}
 					</div>
-					<!--admin o no-->
-		    		<div class='form-group'>
-						{{Form::label('user','Tipo usuario')}}
-						{{Form::text('user',$user->user,['class'=>'form-control','placeholder'=>'1(admin)|| 0(user)','required'])}}
-					</div>
-
-					<div class='form-group'>
-						{{Form::label('socio','Número socio')}}
-						{{Form::text('socio',$user->socio,['class'=>'form-control','placeholder'=>'Número de socio','required'])}}
-					</div>
 
 					<!--botón submnit-->
 		    		<div class='form-group'>
 						{{Form::submit('Editar usuario',['class'=>'btn btn-primary'])}}
 					</div>
-					
+
+	
 {{Form::close()}}
-					<a href="{{route('admin.listausuarios')}}" class="btn btn-primary"><span class="glyphicon glyphicon glyphicon-arrow-left"></span></a>
-
   				</div>
-
 
 			</div>
 	</div>

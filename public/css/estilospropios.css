@@ -139,7 +139,7 @@ h2:hover{
 
 
 /*------------------------------------------*/
-/*	 03 - Estilos para organigrama
+/*	 04 - Estilos para organigrama
 /*------------------------------------------*/
 .centro{
 	text-align: center;
@@ -157,4 +157,20 @@ h2:hover{
 
 .altura{
 	padding-top: 20px;
+}
+
+
+/*------------------------------------------*/
+/*	 04 - Estilos para logo
+/*------------------------------------------*/
+
+.logo{
+	width: 200px;
+	padding-top: 40px;
+}
+
+.logohome{
+	width: 300px;
+	margin-left: 170px;
+	
 }

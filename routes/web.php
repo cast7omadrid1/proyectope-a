@@ -423,3 +423,23 @@ Route::get('eliminarcompras/{id}/destroy',[
 
 /*Ruta exportar tabla excel*/
 Route::get('/excel_compras', 'ExcelController@excelcompras')->name('admin.excel_compras');
+
+
+
+
+
+/*ruta para editar un usuario*/
+Route::get('editarusuario/{id}/edit',[
+
+	'uses'=>'UserController@edit',
+	'as' => 'admin.usercontroller.edit',
+
+]);
+
+/*ruta para editar un usuario*/
+Route::put('updateuser/{id}/update',[
+
+	'uses'=>'UserController@update',
+	'as' => 'admin.usercontroller.update',
+
+]);

@@ -9,7 +9,7 @@
 <head>
 
   <!-- Basic -->
-  <title>Soccer adicts - @yield('titulo')</title>
+  <title>Soccer addicts - @yield('titulo')</title>
   <link rel="shortcut icon" href="images/icons/fav_ico.ico"></link>
   <!-- Define Charset -->
   <meta charset="utf-8">

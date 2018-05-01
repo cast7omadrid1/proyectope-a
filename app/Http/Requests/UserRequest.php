@@ -35,9 +35,7 @@ class UserRequest extends FormRequest
             'email' => 'min:4|max:40|required|email|string|unique:users,id,'.$request->get('id'),
             //'email'=> Rule::unique('users')->ignore('$user->id'),
             
-            'user'  => 'boolean',
-
-            'password' => 'min:8|required',
+            'user' => 'boolean',
 
             'socio' => 'nullable',
         ];

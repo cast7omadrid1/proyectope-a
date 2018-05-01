@@ -44,6 +44,7 @@
 					
 			
 			{{Form::close()}}
+			        <a href="{{route('compras.listacompras')}}" class="btn btn-primary"><span class="glyphicon glyphicon glyphicon-arrow-left"></span></a>
 		 			</div>
 
 				</div>

@@ -57,6 +57,8 @@
 						
 				
 				{{Form::close()}}
+				<a href="{{route('admin.listaarticulos')}}" class="btn btn-primary"><span class="glyphicon glyphicon glyphicon-arrow-left"></span></a>
+		 			</div>
 			 					</div>
 
 							</div>
@@ -106,6 +108,8 @@
 						
 				
 				{{Form::close()}}
+				<a href="{{route('imagenesusuario')}}" class="btn btn-primary"><span class="glyphicon glyphicon glyphicon-arrow-left"></span></a>
+		 			</div>
 			 					</div>
 
 							</div>

@@ -77,6 +77,7 @@ class ListausuariosController extends Controller
         $user->name = $request->name;
         $user->email = $request->email;
         $user->user = $request->user;
+        $user->socio = $request->socio;
         $user->save();
 
         flash('El usuario '.$user->name.' se ha actualizado correctamente')->important();

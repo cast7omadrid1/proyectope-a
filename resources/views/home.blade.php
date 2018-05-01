@@ -31,7 +31,8 @@
             </div>
 
                 <div class="panel-body">
-                    <h1>Bienvenid@ a Soccer Adicts {{Auth::user()->name}} </h1>
+                    <!--<h1>Bienvenid@ a Soccer Adicts {{Auth::user()->name}} </h1>-->
+                    <img src="{{ asset('images/logo.png') }}" title="" class="logohome" alt="...">
                 </div>
             </div>
         </div>

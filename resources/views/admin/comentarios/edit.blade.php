@@ -50,6 +50,7 @@
 						
 				
 				{{Form::close()}}
+				<a href="{{route('comentarios.listacomentarios')}}" class="btn btn-primary"><span class="glyphicon glyphicon glyphicon-arrow-left"></span></a>
 			 					</div>
 
 							</div>

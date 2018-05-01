@@ -7,7 +7,7 @@
 <head>
 
   <!-- Basic -->
-  <title>Soccer adicts - @yield('titulo')</title>
+  <title>Soccer addicts - @yield('titulo')</title>
   
   
 
@@ -81,7 +81,7 @@
             <!-- End Toggle Nav Link For Mobiles-->
             <a class="navbar-brand" href="{{ url('/inicio') }}">
               
-              <img alt="" src="{{ URL::asset('images/captura3.PNG') }}">
+              <img class="logo" alt="" src="{{ URL::asset('images/logo.PNG') }}">
               
             </a>
           </div>

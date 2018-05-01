@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>Soccer adicts - @yield('titulo')</title>
+    <title>Soccer addicts - @yield('titulo')</title>
     <link rel="shortcut icon" href="images/icons/fav_ico.ico"></link>
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -17,8 +17,13 @@
 
     <!-- estilos propios  -->
     <link rel="stylesheet" type="text/css" href="css/estilospropios.css" media="screen">
+    
     <!--iconos-->
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css" media="screen">
+
+    <link  rel = "stylesheet"  href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+
+
 </head>
 <body>
 
