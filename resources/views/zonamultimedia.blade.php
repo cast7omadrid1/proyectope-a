@@ -34,7 +34,7 @@
                         <div class="row ">
                           
                           @foreach($articles as $article)
-                          <div class="col-md-6 leftimage ">
+                          <div class="col-md-6 leftimage zoomIt">
                             <div class="thumbnail sombra">
                               <div class="panel-body ">
                               @foreach($article->image as $image)
@@ -116,7 +116,7 @@
 
           <!--Si el user no esta logado-->
                     
-                    <div class="row">
+                <div class="row">
 
                     <!--Titulo de la galería de imagenes-->
                     <div class="col-xs-12">
@@ -129,13 +129,13 @@
                         <div class="row">
                           
                           @foreach($articles as $article)
-                          <div class="col-md-6 leftimage ">
+                          <div class="col-md-6 leftimage zoomIt">
                             <div class="thumbnail sombra">
                               <div class="panel-body ">
                               @foreach($article->image as $image)
                               
                                 <a href="{{ asset('images/articulos/'.$image->name) }}" rel="lightbox" title="{{$article->description}}">  
-                                  <img src="{{ asset('images/articulos/'.$image->name) }}" title="{{$article->description}}" class=" img-rounded sizeimage" alt="...">
+                                  <img  src="{{ asset('images/articulos/'.$image->name) }}" title="{{$article->description}}" class=" img-rounded sizeimage" alt="...">
                                 </a>
 
 
@@ -187,7 +187,7 @@
                   </div>  
 
 
-                  </div>
+                </div>
                   
 
           

@@ -50,7 +50,11 @@
 					
 			
 			{{Form::close()}}
-					<a href="{{route('admin.listaarticulos')}}" class="btn btn-primary"><span class="glyphicon glyphicon glyphicon-arrow-left"></span></a>
+					 @if (Auth::user()->user == 1 )
+					 	<a href="{{route('admin.listaarticulos')}}" class="btn btn-primary"><span class="glyphicon glyphicon glyphicon-arrow-left"></span></a>
+					 @else
+						<a href="{{route('user.zonamultimedia')}}" class="btn btn-primary"><span class="glyphicon glyphicon glyphicon-arrow-left"></span></a>
+					 @endif
 		 			</div>
 
 				</div>

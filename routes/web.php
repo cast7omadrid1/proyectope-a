@@ -178,6 +178,17 @@ Route::get('eliminararticulo/{id}/destroy',[
 
 ]);
 
+
+//ruta para eliminar un articulo
+Route::get('eliminararticulo/{id}/destroyusernormal',[
+
+	'uses'=>'ArticlesController@destroyusernormal',
+	'as' => 'admin.articles.destroyusernormal'
+
+]);
+
+
+
 /*Ruta prueba exportar tabla excel*/
 Route::get('/create', 'ArticlesController@eventos')->name('admin.articles.eventos');
 
@@ -193,7 +204,7 @@ Route::get('/excel_articles', 'ExcelController@exportArticles')->name('admin.exc
 
 
 //ruta para mostrar la galeria en zonamultimedia
-Route::get('/zonamultimedia', 'ImagenesController@index');
+Route::get('/zonamultimedia', 'ImagenesController@index')->name('user.zonamultimedia');
 
 
 

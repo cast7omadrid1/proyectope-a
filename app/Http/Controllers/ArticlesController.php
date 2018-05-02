@@ -270,6 +270,20 @@ class ArticlesController extends Controller
         return redirect()->route('admin.listaarticulos');
 
     }
+
+    public function destroyusernormal($id)
+    {
+        
+        $article =Article::find($id);
+        $article->delete();
+
+        flash('El articulo '.$article->title.' se ha eliminado correctamente')->error()->important();
+
+        return redirect()->route('user.zonamultimedia');
+
+    }
+
+
     
 }
 

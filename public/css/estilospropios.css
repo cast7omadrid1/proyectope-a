@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700italic,800italic);
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
-
+@import "lesshat";
 /*------------------------------------------*/
 /*	     01 - Estilos para titulos 
 /*------------------------------------------*/
@@ -173,4 +173,21 @@ h2:hover{
 	width: 300px;
 	margin-left: 170px;
 	
+}
+
+/*efecto zoom para los div de la galeria de imagenes*/
+.zoomIt{
+display:block!important;
+-webkit-transition:-webkit-transform 1s ease-out;
+-moz-transition:-moz-transform 1s ease-out;
+-o-transition:-o-transform 1s ease-out;
+-ms-transition:-ms-transform 1s ease-out;
+transition:transform 1s ease-out;
+}
+.zoomIt:hover{
+-moz-transform: scale(1.1);
+-webkit-transform: scale(1.1);
+-o-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1)
 }
