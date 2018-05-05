@@ -33,6 +33,8 @@ Auth::routes();
 //ruta para el home de login / voy a mostrar la info que sea para usuarios logueados
 Route::get('/home', 'HomeController@index')->name('home');
 
+Route::post('inicio', ['as' => 'logout', 'uses' => 'Auth\LoginController@logout']);
+
 //route para admin- DESCOMENTAR RUTA PARA USARLO
 
 //Route::match(['get', 'post'], 'admin/createadmin', 'AdminController@createAdmin');
