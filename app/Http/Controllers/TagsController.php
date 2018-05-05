@@ -51,6 +51,24 @@ class TagsController extends Controller
         return redirect()->route('tags.listatags');
     }
 
+
+    /**
+     * Guardar los cambios realizados al añadir un tag
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Illuminate\Http\Response
+     */
+    public function storeadd(TagRequest $request)
+    {
+        $tags = new Tag($request->all());
+        $tags->save();
+        
+        flash('El tag '.$tags->name.' se ha creado correctamente')->success();
+
+        return redirect()->route('user.zonamultimedia');
+    }
+
+
     /**
      * Display the specified resource.
      *
@@ -110,4 +128,6 @@ class TagsController extends Controller
        
         return redirect()->route('tags.listatags');
     }
+
+
 }

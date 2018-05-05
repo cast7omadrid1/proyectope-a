@@ -292,6 +292,8 @@ Route::resource('tag','TagsController');
 //ruta para el listado de articulos en panel admin
 Route::get('/listatags','TagsController@index')->name('tags.listatags');
 
+Route::post('/addtags','TagsController@storeadd')->name('tags.storeadd');
+
 
 //ruta para eliminar un tags
 Route::get('eliminartags/{id}/destroy',[

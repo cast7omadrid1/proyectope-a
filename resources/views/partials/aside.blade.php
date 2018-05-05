@@ -1,7 +1,7 @@
               
                         
 
-                        <div class="panel panel-primary sombra">
+                        <div class="panel panel-primary sombra zoomIt">
                           <div class="panel-heading leftname">
                             <h3 class="panel-title ">Categorias</h3>
                           </div>
@@ -22,7 +22,7 @@
 
                         </div>
 
-                        <div class="panel panel-primary sombra">
+                        <div class="panel panel-primary sombra zoomIt">
                           <div class="panel-heading leftname">
                             <h3 class="panel-title">Tags</h3>
                           </div>
@@ -34,6 +34,30 @@
                               </a>
                             </span>
                            @endforeach
+                          <!--Solo se muestra si el user esta logado-->
+                          @if (Route::has('login'))
+                            @if (Auth::check()) 
+                              @if (Auth::user()->user == 1 )
+                                <p id='mostrartags'><a href="javascript:mostrartags(this);"><span>Añadir tags</span></a></p>
+                              @endif
+                            @endif
+                          @endif
+                                  <div id="flotante" style="display:none;">
+                                    <div id="close"><p><a href="javascript:cerrartags(this);"><span class="glyphicon glyphicon-eye-close"></span></a></p></div>
+                                    <!--La ruta hace referencia al metodo utilizado por el formulario-->
+                                    {{Form::open(['route'=>'tags.storeadd','method'=>'POST','files'=>true])}}
+                                    <div class="form-group">
+                                      {{Form::text('name',null,['class'=>'form-control','placeholder'=>'Añade un nuevo tag','required'])}}
+                                    </div>
+                                    <!--botón submnit-->
+                                    <div class='form-group'>
+                                      {{Form::submit('Añadir tag',['class'=>'btn btn-primary'])}}
+                                    </div>
+                                    {{Form::close()}}
+                                  </div>
+                          
+                          
+
                           </div>
                         </div>
 

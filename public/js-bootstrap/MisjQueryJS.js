@@ -55,5 +55,15 @@ $(document).ready(function(){
     }
 
 
+    function mostrartags(e){
 
+        document.getElementById('flotante').style.display='block';
+
+    }
+
+    function cerrartags(e){
+
+        document.getElementById('flotante').style.display='none';
+
+    }
 
