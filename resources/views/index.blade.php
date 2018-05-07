@@ -54,7 +54,7 @@
             <div class="slider-content">
               <div class="col-md-12 text-center">
                 <h2 class="animated2 white">
-                  <span>Visualiza<strong> nuestros videos</strong></span>
+                  <span>Visualiza<strong> nuestras imágenes</strong></span>
                 </h2>
                 <h3 class="animated3 white">
                   <span></span>

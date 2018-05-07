@@ -237,11 +237,9 @@ Route::put('guardarcomentarios/{id}/store',[
 //ruta para mostrar la galeria en zonamultimedia
 Route::get('/imagenesusuario', 'ImagenesusuarioController@index')->name('imagenesusuario');
 
-
 //envio mail contacto
 Route::post('send', ['as' => 'send', 'uses' => 'ContactoController@send'] );
 //Route::get('contact', ['as' => 'contact', 'uses' => 'ContactoController@index'] );
-
 
 /*								
 *

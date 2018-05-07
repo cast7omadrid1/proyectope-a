@@ -16,7 +16,7 @@ class ListausuariosController extends Controller
 
         //dd("test");
 
-        $users=User::Search($request->name)->orderBy("id","ASC")->paginate(3);
+        $users=User::Search($request->name)->orderBy("id","DESC")->paginate(3);
         return View('admin.listausuarios')->with('users',$users);
 
     }
@@ -41,7 +41,7 @@ class ListausuariosController extends Controller
 
         flash('El usuario '.$users->name.' se ha creado correctamente')->important();
 
-        return redirect()->route('admin');
+        return redirect()->route('admin.listausuarios');
     }
 
 

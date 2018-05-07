@@ -22,26 +22,10 @@ $(document).ready(function(){
 
 
 /* ------------------------------------------ */
-/*       MOSTRAR DIV OCULTO
+/*       MOSTRAR DIV OCULTO COMENTARIOS
 /*  Script para mostrar u ocultar el div oculto
-/*
-/* 
 /* ------------------------------------------ */
-    /*$(document).ready(function(){
-        
-        $("#mostrar").on( "click", function(event, article_id) {
-            console.log(article_id);
-            $('#flotante_'+ article_id).show(); //muestro mediante id
-            
-         });
-        $("#ocultar").on( "click", function(event, article_id) {
-            $('#flotante_'+ article_id).hide(); //oculto mediante id
-            
-        });
-    });*/
-
-
-
+    
     function mostrar(e, id){
 
         document.getElementById('flotante_'+id).style.display='block';
@@ -54,6 +38,10 @@ $(document).ready(function(){
 
     }
 
+/* ------------------------------------------ */
+/*       MOSTRAR DIV OCULTO TAGS
+/*  Script para mostrar u ocultar el div oculto
+/* ------------------------------------------ */
 
     function mostrartags(e){
 

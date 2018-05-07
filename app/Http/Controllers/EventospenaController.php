@@ -25,7 +25,7 @@ class EventospenaController extends Controller
 
     public function index(Request $request){
 
-		$articles = Article::orderBy('id','DESC')->where('category_id', '=', 1)->paginate(6);
+		$articles = Article::orderBy('id','DESC')->where('category_id', '=', 1)->paginate(4);
 		//dd($articles);
 		
 

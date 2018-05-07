@@ -76,9 +76,9 @@ class ImagenesController extends Controller
 		
 		$comentarios->save();
 
-		flash('El comentario se ha creado correctamente, ve a Zona multimedia para comprobarlo ')->success();
+		flash('El comentario se ha creado correctamente')->success();
 		
-		return redirect()->route('inicio');
+		return redirect()->route('user.zonamultimedia');
 		
 	}
 

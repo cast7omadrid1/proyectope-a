@@ -31,6 +31,7 @@
 						<th>Nombre</th>
 						<th>Correo</th>
 						<th>Tipo</th>
+						<th>Número socio</th>
 						<th>Acción</th>
 					</thead>
 					<!--for each para mostrar todos los usuarios-->
@@ -49,6 +50,7 @@
 										@endif	
 
 									</td>
+									<td>{{$user->socio}}</td>
 									<td>
 										<!--Botones para editar y eliminar usuarios-->
 										<a href="{{route('admin.edit', $user->id)}}" class="btn btn-primary">Editar</a>
