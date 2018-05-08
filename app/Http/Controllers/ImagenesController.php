@@ -106,7 +106,7 @@ class ImagenesController extends Controller
 			$comentarios->user;
 		});
 
-		return View('zonamultimedia')->with('articles',$articles);
+		return View('zonamultimedia')->with('articles',$articles)->with('comentarios',$comentarios);
 		
 
 	}
@@ -122,7 +122,17 @@ class ImagenesController extends Controller
 			$articles->images;
 		});
 		
-		return View('zonamultimedia')->with('articles',$articles);
+		$comentarios = Comentarios::orderBy('id','ASC')->paginate(10);
+		  //dd($comentarios);
+
+		
+		$comentarios->each(function($comentarios){
+			
+			$comentarios->article;
+			$comentarios->user;
+		});
+		
+		return View('zonamultimedia')->with('articles',$articles)->with('comentarios',$comentarios);
 	}
 
 

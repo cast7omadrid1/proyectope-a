@@ -32,6 +32,7 @@ h2:hover{
 	text-decoration: underline;
 }
 
+
 .labeladmin{
   padding-left:350px;
 }
@@ -77,9 +78,7 @@ h2:hover{
 	height: 300px !important;
 }
 
-
-
-
+/*estilo para la fila*/
 .row{
 	
 	padding-left: 60px;
@@ -94,6 +93,7 @@ h2:hover{
 
 }
 
+/*para la sombra de los div*/
 .sombra{
 	-webkit-box-shadow: 7px 6px 5px 0px rgba(0,0,0,0.75);
 	-moz-box-shadow: 7px 6px 5px 0px rgba(0,0,0,0.75);
@@ -107,6 +107,7 @@ h2:hover{
 	background-color: #00D2A8;
 }
 
+/*padding botón editar*/
 .paddingeditboton{
 	margin-left: 10px;
 	margin-bottom: 50px;
@@ -128,6 +129,7 @@ h2:hover{
   background-color: #00D2A8;
 }
 
+
 .leftname{
 	padding-left: 5px;
 }
@@ -140,6 +142,29 @@ h2:hover{
 #mostrartags{
 	border-top:1px solid black;
 }
+
+.sizecomment{
+	font-size: 12px;
+}
+
+
+/*efecto zoom para los div de la galeria de imagenes*/
+.zoomIt{
+display:block!important;
+-webkit-transition:-webkit-transform 1s ease-out;
+-moz-transition:-moz-transform 1s ease-out;
+-o-transition:-o-transform 1s ease-out;
+-ms-transition:-ms-transform 1s ease-out;
+transition:transform 1s ease-out;
+}
+.zoomIt:hover{
+-moz-transform: scale(1.1);
+-webkit-transform: scale(1.1);
+-o-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1)
+}
+
 
 /*------------------------------------------*/
 /*	 04 - Estilos para organigrama
@@ -162,8 +187,10 @@ h2:hover{
 	padding-top: 20px;
 	padding-bottom: 50px;
 }
-
-
+/*cambiar color botones sumbmit*/
+a.main-button, input[type="submit"]{
+	background-color: #00D2A8;
+}
 
 /*------------------------------------------*/
 /*	 04 - Estilos para logo
@@ -180,22 +207,7 @@ h2:hover{
 	
 }
 
-/*efecto zoom para los div de la galeria de imagenes*/
-.zoomIt{
-display:block!important;
--webkit-transition:-webkit-transform 1s ease-out;
--moz-transition:-moz-transform 1s ease-out;
--o-transition:-o-transform 1s ease-out;
--ms-transition:-ms-transform 1s ease-out;
-transition:transform 1s ease-out;
-}
-.zoomIt:hover{
--moz-transform: scale(1.1);
--webkit-transform: scale(1.1);
--o-transform: scale(1.1);
--ms-transform: scale(1.1);
-transform: scale(1.1)
-}
+
 
 
 /*------------------------------------------*/

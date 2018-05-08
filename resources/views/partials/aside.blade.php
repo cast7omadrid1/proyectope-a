@@ -34,6 +34,8 @@
                               </a>
                             </span>
                            @endforeach
+
+                          <!--Añadir tags!--> 
                           <!--Solo se muestra si el user esta logado-->
                           @if (Route::has('login'))
                             @if (Auth::check()) 

@@ -306,18 +306,7 @@
   <!-- Go To Top Link -->
   <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
 
-  <!--<div id="loader">
-    <div class="spinner">
-      <div class="dot1"></div>
-      <div class="dot2"></div>
-    </div>
-  </div>-->
-
-
-  <!--<script type="text/javascript" src="js/script.js"></script>-->
-
-
-<!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
+  
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
   
@@ -352,7 +341,7 @@
   <script type="text/javascript" src="bootstrap-design/js/mdb.min.js"></script>
   <script type="text/javascript" src="bootstrap-design/js/popper.min.js"></script>
 
-  <!--Script para Slimbox2-->
+  <!--Script para Slimbox2 aumentar la imagen-->
   <script type="text/javascript" src="slimbox/js/slimbox2.js"></script>
 
 

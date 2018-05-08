@@ -75,7 +75,7 @@
                                     <div id="close"><p><a href="javascript:cerrar(this, {{$article->id}});"><span class="glyphicon glyphicon-eye-close"></span></a></p></div>
                                     @foreach($article->comentario as $comentario)
                                       <ul>
-                                        <li><b>{{$comentario->user->name}}</b> : {{$comentario->comentarios}}</li>
+                                        <li class="sizecomment"><b>{{$comentario->user->name}}</b> : {{$comentario->comentarios}}</li>
                                       </ul>
                                     @endforeach  
                                   </div>
@@ -183,7 +183,7 @@
                                     <div id="close"><p><a href="javascript:cerrar(this, {{$article->id}});"><span class="glyphicon glyphicon-eye-close"></span></a></p></div>
                                     @foreach($article->comentario as $comentario)
                                       <ul>
-                                        <li><b>{{$comentario->user->name}}</b> : {{$comentario->comentarios}}</li>
+                                        <li class="sizecomment"><b>{{$comentario->user->name}}</b> : {{$comentario->comentarios}}</li>
                                       </ul>
                                     @endforeach  
                                   </div>

@@ -3,6 +3,36 @@
 
 @section('contenido')
 
+<script>
+
+
+  /*Script para mostrar u ocultar el div oculto de comentarios*/
+  function mostrar(e, id){
+
+        document.getElementById('flotante_'+id).style.display='block';
+
+    }
+
+    function cerrar(e, id){
+
+        document.getElementById('flotante_'+id).style.display='none';
+
+    }
+  /*Script para mostrar u ocultar el div oculto*/
+    function mostrartags(e){
+
+        document.getElementById('flotante').style.display='block';
+
+    }
+
+    function cerrartags(e){
+
+        document.getElementById('flotante').style.display='none';
+
+    }
+</script>
+
+
 <!--if para diferenciación entre un usuario normal y un usuario logueado-->
 @if (Route::has('login'))
     
@@ -32,7 +62,7 @@
                      
                       <div class="col-md-8 ">
                         <div class="row ">
-                          
+                          <!--Mostramos las imagenes-->
                           @foreach($articles as $article)
                           <div class="col-md-6 leftimage zoomIt">
                             <div class="thumbnail sombra">
@@ -61,13 +91,13 @@
                                     <div id="close"><p><a href="javascript:cerrar(this, {{$article->id}});"><span class="glyphicon glyphicon-eye-close"></span></a></p></div>
                                     @foreach($article->comentario as $comentario)
                                       <ul>
-                                        <li><b>{{$comentario->user->name}}</b> : {{$comentario->comentarios}}</li>
+                                        <li class="sizecomment"><b>{{$comentario->user->name}}</b> : {{$comentario->comentarios}}</li>
                                       </ul>
                                     @endforeach  
                                   </div>
 
                               
-                              <!--La ruta hace referencia al metodo utilizado por el formulario-->
+                              <!--La ruta hace referencia al metodo utilizado por el formulario || AÑADIR COMENTARIOS-->
                               {{Form::open(['route'=>['imagepena.store',$article],'method'=>'PUT','files'=>true])}}
 
                                  <div class="form-group">
@@ -105,9 +135,10 @@
                     
                   </div>  
 
-
+                  
                   </div>
               
+
       
           @endif
                         
@@ -155,7 +186,7 @@
                                     <div id="close"><p><a href="javascript:cerrar(this, {{$article->id}});"><span class="glyphicon glyphicon-eye-close"></span></a></p></div>
                                     @foreach($article->comentario as $comentario)
                                       <ul>
-                                        <li><b>{{$comentario->user->name}}</b> : {{$comentario->comentarios}}</li>
+                                        <li class="sizecomment"><b>{{$comentario->user->name}}</b> : {{$comentario->comentarios}}</li>
                                       </ul>
                                     @endforeach  
                                   </div>
@@ -189,7 +220,7 @@
 
                 </div>
                   
-
+              
           
           @endif
                 

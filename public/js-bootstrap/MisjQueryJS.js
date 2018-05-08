@@ -38,6 +38,9 @@ $(document).ready(function(){
 
     }
 
+
+
+
 /* ------------------------------------------ */
 /*       MOSTRAR DIV OCULTO TAGS
 /*  Script para mostrar u ocultar el div oculto
