@@ -208,8 +208,6 @@ a.main-button, input[type="submit"]{
 }
 
 
-
-
 /*------------------------------------------*/
 /*	 05 - Estilos para footer
 /*------------------------------------------*/
@@ -228,6 +226,10 @@ a.main-button, input[type="submit"]{
 
 
 /*------------------------------------------*/
-/*	 05 - Estilos para eventos
+/*	 05 - Estilos para profile
 /*------------------------------------------*/
 
+.colorbotoneditar{
+	background-color: #00D2A8;
+	color:white;
+}
