@@ -30,7 +30,7 @@
           <h2>{{ $user->name }}</h2>
           <h2>{{ $user->email }}</h2>
           <!--Botones para editar y eliminar usuarios-->
-          <a href="{{route('admin.usercontroller.edit', $user->id)}}" class="btn colorbotoneditar ">Editar nombre</a>
+          <a href="{{route('admin.usercontroller.edit', $user->id)}}" class="btn btn-primary" type="submit">Editar nombre</a>
           
 
     </div>

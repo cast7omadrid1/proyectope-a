@@ -230,7 +230,7 @@
           <div class="col-md-4 col-xs-12">
             <div class="footer-widget contact-widget">
               <h4 class="">Contacta con nosotros<span class="head-line"></span></h4>
-                <p>Si tienes alguna duda contacta ve a nuestra zona de contacto</p>
+                <p>Si tienes alguna duda ve a nuestra zona de contacto.</p>
                 <a href="{{ url('/contacto') }}" onmouseover="javascript:this.style.backgroundColor='#19F0DB';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn btn-primary botonpaneladmin">Contacto</a>
             </div>
           </div>

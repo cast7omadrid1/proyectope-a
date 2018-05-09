@@ -34,10 +34,11 @@ class UserRequest extends FormRequest
             //'email' => 'min:4|max:40|required|email|string|unique:users'.$user->id,
             'email' => 'min:4|max:40|required|email|string|unique:users,id,'.$request->get('id'),
             //'email'=> Rule::unique('users')->ignore('$user->id'),
-            
+            'password' => 'min:8|max:15',
+
             'user' => 'boolean',
 
-            'socio' => 'nullable',
+            'socio' => 'nullable|integer',
         ];
     }
 }

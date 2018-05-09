@@ -1,0 +1,16 @@
+/*estilos home*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700italic,800italic);
+@import url(https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
+@import "lesshat";
+
+/*------------------------------------------*/
+/*	     01 - Estilos para home 
+/*------------------------------------------*/
+
+/*tamaño logohome*/
+.logohome{
+	width: 300px;
+	margin-left: 200px;
+}
+

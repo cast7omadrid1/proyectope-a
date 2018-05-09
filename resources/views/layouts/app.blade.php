@@ -15,9 +15,9 @@
 
      <link href="{{ asset('plugins/trumbowyg/ui/trumbowyg.css') }}" rel="stylesheet">
 
-    <!-- estilos propios  -->
-    <link rel="stylesheet" type="text/css" href="css/estilospropios.css" media="screen">
-    
+    <!-- estilos propios
+    <link rel="stylesheet" type="text/css" href="css/estilospropios.css" media="screen">-->
+    <link rel="stylesheet" type="text/css" href="css/estiloshome.css" media="screen">
     <!--iconos-->
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css" media="screen">
 
@@ -79,7 +79,11 @@
                                         <a href="{{route('home') }}">
                                             Home
                                         </a>
-                                        
+                                        @if (Auth::user()->user == 1 )
+                                         <a href="{{url('/listausuarios')}}">
+                                            Panel admin
+                                          </a>
+                                        @endif
                                     
                                         <!--Nos envia al perfil del usuario-->
                                         <a href="{{route('user.profile') }}">

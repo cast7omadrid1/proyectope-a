@@ -38,7 +38,7 @@ h2:hover{
 }
 
 /*------------------------------------------*/
-/*	 02 - Estilos para tabla listado users
+/*	 02 - Estilos para tabla listados
 /*------------------------------------------*/
 /*tamaño tabla listado*/
 .sizetable{
@@ -142,7 +142,7 @@ h2:hover{
 #mostrartags{
 	border-top:1px solid black;
 }
-
+/*tamaño fuente comentarios*/
 .sizecomment{
 	font-size: 12px;
 }
@@ -169,20 +169,21 @@ transform: scale(1.1)
 /*------------------------------------------*/
 /*	 04 - Estilos para organigrama
 /*------------------------------------------*/
+/*el texto alineado al centro*/
 .centro{
 	text-align: center;
 }
 
-
+/*padding iconos redes centrar*/
 .socialcenter{
 	padding-right: 110px;
 }
 
-
+/*padding iconos redes centrar presidente*/
 .socialpresidente{
 	padding-right: 460px;
 }
-
+/*distancia de separacion con pie de página*/
 .altura{
 	padding-top: 20px;
 	padding-bottom: 50px;
@@ -192,44 +193,44 @@ a.main-button, input[type="submit"]{
 	background-color: #00D2A8;
 }
 
+
 /*------------------------------------------*/
 /*	 04 - Estilos para logo
 /*------------------------------------------*/
-
+/*tamaño logo*/
 .logo{
 	width: 200px;
 	padding-top: 40px;
 }
 
-.logohome{
-	width: 300px;
-	margin-left: 170px;
-	
-}
 
 
 /*------------------------------------------*/
 /*	 05 - Estilos para footer
 /*------------------------------------------*/
-
+/*color enlaces footer*/
 .colorenlace{
 	color:#00D2A8;
 }
-
+/*espacio de separación*/
 .espacio{
 	padding-top: 30px;
 }
-
+/*tamaño logo*/
 .tamañoimg{
 	width: 200px;
 }
 
 
 /*------------------------------------------*/
-/*	 05 - Estilos para profile
+/*	 05 - Estilos para noticias
 /*------------------------------------------*/
-
-.colorbotoneditar{
-	background-color: #00D2A8;
-	color:white;
+/*color para nuevo post rss*/
+.new-post-label{
+	color:#FAAD48;
 }
+/*color flecha*/
+.fa-arrow-right::before{
+	color:#262626;
+}
+

@@ -38,7 +38,7 @@
             <div class="slider-content">
               <div class="col-md-12 text-center">
                 <h2 class="animated2">
-                  <span><strong>Las noticias</strong> más importantes</span>
+                  <span><strong>Las noticias RSS</strong> más importantes</span>
                 </h2>
                 <h3 class="animated3">
                   <span>Sobre tu equipo favorito</span>
