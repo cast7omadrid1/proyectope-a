@@ -15,7 +15,6 @@ use Illuminate\Database\Eloquent\Builder;
 
 
 
-
 class EventospenaController extends Controller
 {
     
@@ -51,10 +50,11 @@ class EventospenaController extends Controller
 			$comentarios->user;
 		});
 
+		
 		//$query=\DB::getQueryLog();
 		
 		return View('eventospena')->with('articles',$articles)->with('comentarios',$comentarios);
-		//return View('eventospena')->with('articles',$articles);
+		
 		
 	}
 

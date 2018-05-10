@@ -345,9 +345,6 @@
   <script type="text/javascript" src="slimbox/js/slimbox2.js"></script>
 
 
-  
-  
-
  <!--Script para la eliminacion de los mensajes de alerta en 3 segundos-->
   <script>
       $('div.alert').delay(3000).fadeOut(350);

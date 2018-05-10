@@ -187,6 +187,9 @@ return [
         /*exportar bbdd a excel*/
         Maatwebsite\Excel\ExcelServiceProvider::class,
 
+        /*calendario*/
+        MaddHatter\LaravelFullcalendar\ServiceProvider::class,
+
 
         App\Providers\ComposerServiceProvider::class,
 
@@ -244,6 +247,7 @@ return [
         'Image' => Intervention\Image\Facades\Image::class,
         'Input'     => Illuminate\Support\Facades\Input::class,
         'Excel' => Maatwebsite\Excel\Facades\Excel::class,
+        'Calendar' => MaddHatter\LaravelFullcalendar\Facades\Calendar::class,
     ],
 
 ];
