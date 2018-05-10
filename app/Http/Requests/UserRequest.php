@@ -38,7 +38,7 @@ class UserRequest extends FormRequest
 
             'user' => 'boolean',
 
-            'socio' => 'nullable|integer',
+            
         ];
     }
 }
