@@ -287,30 +287,43 @@
   </div>
 
     <!-- Start Footer Section -->
-    <footer>
+    <footer class="espacio">
       <div class="container">
         <div class="row footer-widgets">
+          
+            <div class="col-md-4 col-xs-12">
+              <h4><img src="images/logo.PNG" class="img-responsive tamañoimg" alt="Footer Logo" /></h4>
+                <ul>
+                  <li><span>Número de teléfono:</span> +34 976 618 450</li>
+                  <li><span>Email:</span> socceraddicts@gmail.com</li>
+                  <li>https://www.socceraddicts.com</li>
+                  <li><a class="popup-gmaps colorenlace" href="https://www.google.com/maps/place/Calle+Emilio+Castelar,+81,+50013+Zaragoza/@41.6389289,-0.8708344,17z/data=!3m1!4b1!4m5!3m4!1s0xd5914ffea8bc60b:0x758a63355c1ed802!8m2!3d41.6389249!4d-0.8686457?hl=en"><span>Dirección: </span>Emilio Castelar, 81 | Zaragoza</a>
+                  </li>
+              </ul>
+            </div>
+
+          <!-- Start Contact Widget -->
+          <div class="col-md-4 col-xs-12">
+            <div class="footer-widget contact-widget">
+              <h4 class="">Contacta con nosotros<span class="head-line"></span></h4>
+                <p>Si tienes alguna duda ve a nuestra zona de contacto.</p>
+                <a href="{{ url('/contacto') }}" onmouseover="javascript:this.style.backgroundColor='#19F0DB';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn btn-primary botonpaneladmin">Contacto</a>
+            </div>
+          </div>
+          <!-- .col-md-3 -->
+          <!-- End Contact Widget -->
 
 
           <!-- Start Subscribe & Social Links Widget -->
           <div class="col-md-4 col-xs-12">
-            <div class="footer-widget mail-subscribe-widget">
-              <h4>Contacta con nosotros<span class="head-line"></span></h4>
-              <p>Si tienes alguna pregunta envianos un mail</p>
-              <form class="subscribe">
-                <input type="text" placeholder="mail@ejemplo.com">
-                <input type="submit" class="btn-system" value="Enviar">
-              </form>
-            </div>
-            <div class="footer-widget social-widget">
-              <h4>Siguenos<span class="head-line"></span></h4>
+            <div class="footer-widget social-widget ">
+              <h4 class="">Siguenos<span class="head-line"></span></h4>
               <ul class="social-icons">
                 <li>
                   <!--<a class="facebook" href="#"><i class="fa fa-facebook"></i></a>-->
                   <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Flacasablancadezaragoza%2F&width=60px&layout=button_count&action=like&size=small&show_faces=true&share=true&height=46&appId=1389376781390269" width="180px" height="46" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
                 </li>
                 <li>
-                  <!--<a class="twitter" href="#"><i class="fa fa-twitter"></i></a>-->
                   <!--Botón propio de twitter para twitter a través de la página web-->
                   <a href="https://twitter.com/intent/tweet?screen_name=pmadridzaragoza&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-related="" data-lang="es" data-show-count="false">Tweet de @pmadridzaragoza</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                 </li>
@@ -324,101 +337,12 @@
           <!-- End Subscribe & Social Links Widget -->
 
 
-          <!-- Start Twitter Widget -->
-          <div class="col-md-4 col-xs-12">
-            <div class="footer-widget twitter-widget">
-              <h4>Twitter Feed<span class="head-line"></span></h4>
-              <ul>
-                <li>
-                  <p><a href="#">@GrayGrids </a> Lorem ipsum dolor et, consectetur adipiscing eli.</p>
-                  <span>28 February 2016</span>
-                </li>
-                <li>
-                  <p><a href="#">@GrayGrids </a> Lorem ipsum dolor et, consectetur adipiscing eli.An Fusce eleifend aliquet nis application.</p>
-                  <span>26 February 2016</span>
-                </li>
-                <li>
-                  <p><a href="#">@GrayGrids </a> Lorem ipsum dolor et, consectetur adipiscing eli.</p>
-                  <span>28 February 2016</span>
-                </li>
-              </ul>
-            </div>
-          </div>
+          <!--  -->
+          
           <!-- .col-md-3 -->
           <!-- End Twitter Widget -->
 
-
-          <!--<!-- Start Flickr Widget 
-          <div class="col-md-3 col-xs-12">
-            <div class="footer-widget flickr-widget">
-              <h4>Flicker Feed<span class="head-line"></span></h4>
-              <ul class="flickr-list">
-                <li>
-                  <a href="images/flickr-01.jpg" class="lightbox">
-                    <img alt="" src="images/flickr-01.jpg">
-                  </a>
-                </li>
-                <li>
-                  <a href="images/flickr-02.jpg" class="lightbox">
-                    <img alt="" src="images/flickr-02.jpg">
-                  </a>
-                </li>
-                <li>
-                  <a href="images/flickr-03.jpg" class="lightbox">
-                    <img alt="" src="images/flickr-03.jpg">
-                  </a>
-                </li>
-                <li>
-                  <a href="images/flickr-04.jpg" class="lightbox">
-                    <img alt="" src="images/flickr-04.jpg">
-                  </a>
-                </li>
-                <li>
-                  <a href="images/flickr-05.jpg" class="lightbox">
-                    <img alt="" src="images/flickr-05.jpg">
-                  </a>
-                </li>
-                <li>
-                  <a href="images/flickr-06.jpg" class="lightbox">
-                    <img alt="" src="images/flickr-06.jpg">
-                  </a>
-                </li>
-                <li>
-                  <a href="images/flickr-07.jpg" class="lightbox">
-                    <img alt="" src="images/flickr-07.jpg">
-                  </a>
-                </li>
-                <li>
-                  <a href="images/flickr-08.jpg" class="lightbox">
-                    <img alt="" src="images/flickr-08.jpg">
-                  </a>
-                </li>
-                <li>
-                  <a href="images/flickr-09.jpg" class="lightbox">
-                    <img alt="" src="images/flickr-09.jpg">
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <!-- .col-md-3 -->
-          <!-- End Flickr Widget -->
-
-
-          <!-- Start Contact Widget -->
-          <div class="col-md-4 col-xs-12">
-            <div class="footer-widget contact-widget">
-              <h4><img src="images/captura3.PNG" class="img-responsive" alt="Footer Logo" /></h4>
-              <p>Si te interesa conocer todo acerca de tu equipo favorito ¡visitanos!</p>
-              <ul>
-                <li><span>Número de teléfono:</span> +34 976 618 450</li>
-                <li><span>Email:</span> socceraddicts@gmail.com</li>
-                <li><span>Website:</span> www.socceradicts.com</li>
-              </ul>
-            </div>
-          </div>
-          <!-- .col-md-3 -->
-          <!-- End Contact Widget -->
+          
 
 
         </div>
@@ -428,16 +352,16 @@
         <div class="copyright-section">
           <div class="row">
             <div class="col-md-6">
-              <p>Copyright © 2016 Margo - Designed &amp; Developed by <a href="http://graygrids.com">GrayGrids</a></p>
+              <p class="">Copyright © 2018 Castro - Designed &amp; Developed by <a  href="">Aarón Castro</a></p>
             </div>
             <!-- .col-md-6 -->
             <div class="col-md-6">
               <ul class="footer-nav">
-                <li><a href="#">Sitemap</a>
+                <li><a class="colorenlace" href="#">Sitemap</a>
                 </li>
-                <li><a href="#">Privacy Policy</a>
+                <li><a class="colorenlace" href="#">Privacy Policy</a>
                 </li>
-                <li><a href="#">Contact</a>
+                <li><a class="colorenlace" href="#">Contact</a>
                 </li>
               </ul>
             </div>

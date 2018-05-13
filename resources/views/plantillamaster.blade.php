@@ -308,41 +308,44 @@
 
   
 
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
+  <script src="{{ URL::asset('http://ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js') }}"></script>
   
-  <script type="text/javascript" src="js-bootstrap/jquery-2.1.4.min.js"></script>
-  <script type="text/javascript" src="js-bootstrap/jquery.fitvids.js"></script>
-  <script type="text/javascript" src="js-bootstrap/jquery.isotope.min.js"></script>
-  <script type="text/javascript" src="js-bootstrap/jquery.appear.js"></script>
-  <script type="text/javascript" src="js-bootstrap/jquery.textillate.js"></script>
-  <script type="text/javascript" src="js-bootstrap/jquery.lettering.js"></script>
-  <script type="text/javascript" src="js-bootstrap/jquery.easypiechart.min.js"></script>
-  <script type="text/javascript" src="js-bootstrap/jquery.slicknav.js"></script> 
+  
+
+  <script type="text/javascript" src="{{ URL::asset('js-bootstrap/jquery-2.1.4.min.js') }}"></script>
+  <script type="text/javascript" src="{{ URL::asset('js-bootstrap/jquery.fitvids.js') }}"></script>
+  <script type="text/javascript" src="{{ URL::asset('js-bootstrap/jquery.isotope.min.js') }}"></script>
+  <script type="text/javascript" src="{{ URL::asset('js-bootstrap/jquery.appear.js') }}"></script>
+  <script type="text/javascript" src="{{ URL::asset('js-bootstrap/jquery.textillate.js') }}"></script>
+  <script type="text/javascript" src="{{ URL::asset('js-bootstrap/jquery.lettering.js') }}"></script>
+  <script type="text/javascript" src="{{ URL::asset('js-bootstrap/jquery.easypiechart.min.js') }}"></script>
+  <script type="text/javascript" src="{{ URL::asset('js-bootstrap/jquery.slicknav.js') }}"></script> 
   <!--MisJquery-->
-  <script type="text/javascript" src="js-bootstrap/MisjQueryJS.js"></script>
+  <script type="text/javascript" src="{{ URL::asset('js-bootstrap/MisjQueryJS.js') }}
+"></script>
 
-  <script type="text/javascript" src="js-bootstrap/jquery.migrate.js"></script>
-  <script type="text/javascript" src="js-bootstrap/modernizrr.js"></script>
-  <script type="text/javascript" src="asset/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="js-bootstrap/owl.carousel.min.js"></script>
-  <script type="text/javascript" src="js-bootstrap/nivo-lightbox.min.js"></script>
-  <script type="text/javascript" src="js-bootstrap/count-to.js"></script>
-  <script type="text/javascript" src="js-bootstrap/smooth-scroll.js"></script>
-  <script type="text/javascript" src="js-bootstrap/skrollr.js"></script>
-  <script type="text/javascript" src="js-bootstrap/jquery.parallax.js"></script>
-  <script type="text/javascript" src="js-bootstrap/mediaelement-and-player.js"></script>
+  <script type="text/javascript" src="{{ URL::asset('js-bootstrap/jquery.migrate.js') }}"></script>
+  <script type="text/javascript" src="{{ URL::asset('js-bootstrap/modernizrr.js') }}"></script>
+  <script type="text/javascript" src="{{ URL::asset('asset/js/bootstrap.min.js') }}"></script>
+  <script type="text/javascript" src="{{ URL::asset('js-bootstrap/owl.carousel.min.js') }}"></script>
+  <script type="text/javascript" src="{{ URL::asset('js-bootstrap/nivo-lightbox.min.js') }}"></script>
+  <script type="text/javascript" src="{{ URL::asset('js-bootstrap/count-to.js') }}"></script>
+  <script type="text/javascript" src="{{ URL::asset('js-bootstrap/smooth-scroll.js') }}"></script>
+  <script type="text/javascript" src="{{ URL::asset('js-bootstrap/skrollr.js') }}"></script>
+  <script type="text/javascript" src="{{ URL::asset('js-bootstrap/jquery.parallax.js') }}"></script>
+  <script type="text/javascript" src="{{ URL::asset('js-bootstrap/mediaelement-and-player.js') }}"></script>
 
 
   
-  <script type="text/javascript" src="bootstrap-design/js/bootstrap.js"></script>
-  <script type="text/javascript" src="bootstrap-design/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="bootstrap-design/js/jquery-3.2.1.js"></script>
-  <script type="text/javascript" src="bootstrap-design/js/mdb.js"></script>
-  <script type="text/javascript" src="bootstrap-design/js/mdb.min.js"></script>
-  <script type="text/javascript" src="bootstrap-design/js/popper.min.js"></script>
+  <script type="text/javascript" src="{{ URL::asset('bootstrap-design/js/bootstrap.js') }}"></script>
+  <script type="text/javascript" src="{{ URL::asset('bootstrap-design/js/bootstrap.min.js') }}"></script>
+  <script type="text/javascript" src="{{ URL::asset('bootstrap-design/js/jquery-3.2.1.js') }}"></script>
+  <script type="text/javascript" src="{{ URL::asset('bootstrap-design/js/mdb.js') }}"></script>
+  <script type="text/javascript" src="{{ URL::asset('bootstrap-design/js/mdb.min.js') }}"></script>
+  <script type="text/javascript" src="{{ URL::asset('bootstrap-design/js/popper.min.js') }}"></script>
 
   <!--Script para Slimbox2 aumentar la imagen-->
-  <script type="text/javascript" src="slimbox/js/slimbox2.js"></script>
+  <script type="text/javascript" src="{{ URL::asset('slimbox/js/slimbox2.js') }}"></script>
 
 
  <!--Script para la eliminacion de los mensajes de alerta en 3 segundos-->
