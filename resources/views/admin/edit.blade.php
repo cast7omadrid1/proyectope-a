@@ -29,7 +29,7 @@
 
 					<div class='form-group'>
 						{{Form::label('socio','Número socio')}}
-						{{Form::text('socio',$user->socio,['class'=>'form-control','placeholder'=>'Número de socio','required'])}}
+						{{Form::text('socio',$user->socio,['class'=>'form-control','placeholder'=>'Número de socio'])}}
 					</div>
 
 					<!--botón submnit-->

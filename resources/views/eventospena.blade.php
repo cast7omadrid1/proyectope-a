@@ -108,7 +108,7 @@
                       </div>
 
                       <!--Render para pasar imagenes-->
-                      <div class="leftimage">
+                      <div class="leftrender colorrender">
                         {!!$articles->render()!!}
                       </div>
                    
@@ -211,7 +211,7 @@
                       </div>
 
                       <!--Render para pasar imagenes-->
-                      <div class="leftimage">
+                      <div class="leftrender colorrender">
                         {!!$articles->render()!!}
                       </div>
                    

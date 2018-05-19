@@ -19,7 +19,7 @@ class ImagenesusuarioController extends Controller
     	$iduser = \Auth::user()->id;
 
     	//obtenemos los articulos según el usuario que lo haya subido
-    	$articles = Article::orderBy('id','DESC')->where('user_id', '=', $iduser)->paginate(10);
+    	$articles = Article::orderBy('id','DESC')->where('user_id', '=', $iduser)->paginate(6);
     	//dd($articles);
 
     	/*obtenemos las relaciones */

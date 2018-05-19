@@ -10,7 +10,7 @@
 
 	<!--Buscador de comentarios-->
 	{{Form::open(['route' => 'comentarios.index','method' => 'GET', 'class' => 'navbar-form pull-right'])}}
-	<div class="input-group">
+	<div class="input-group marginbuscador">
 		{{Form::text('comentarios',null,['class'=>'form-control','placeholder'=>'Buscar comentarios','aria-describedby'=>'search'])}}
 		<span class="input-group-addon" id="search"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></span>
 	</div>

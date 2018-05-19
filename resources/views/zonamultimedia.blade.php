@@ -51,14 +51,14 @@
                     <!--botón para añadir imagenes-->
 
                     @if (Auth::user()->user == 1 )
-                      <a href="{{route('articles.create')}}" onmouseover="javascript:this.style.backgroundColor='#19F0DB';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn btn-primary paddingboton">Añade una nueva imagen a nuestra galería!</a>
+                      <a href="{{route('articles.create')}}" onmouseover="javascript:this.style.backgroundColor='#404040';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn paddingboton">Añade una nueva imagen a nuestra galería!</a>
                     @else
-                      <a href="{{route('admin.articles.eventos')}}" onmouseover="javascript:this.style.backgroundColor='#19F0DB';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn btn-primary paddingboton">Añade una nueva imagen a nuestra galería!</a>
+                      <a href="{{route('admin.articles.eventos')}}" onmouseover="javascript:this.style.backgroundColor='#404040';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn paddingboton">Añade una nueva imagen a nuestra galería!</a>
                     @endif
   
                     <!--botón para ver imagenes de cada user-->
 
-                      <a href="{{route('imagenesusuario')}}" onmouseover="javascript:this.style.backgroundColor='#19F0DB';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn btn-primary paddingeditboton">Edita tus imágenes</a>
+                      <a href="{{route('imagenesusuario')}}" onmouseover="javascript:this.style.backgroundColor='#404040';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn paddingeditboton">Edita tus imágenes</a>
                      
                       <div class="col-md-8 ">
                         <div class="row ">
@@ -120,8 +120,7 @@
                       </div>
 
                       <!--Render para pasar imagenes-->
-                      <div class="leftimage">
-
+                      <div class="leftrender colorrender">
                         {!!$articles->render()!!}
                       </div>
                    
@@ -202,7 +201,7 @@
                       </div>
 
                       <!--Render para pasar imagenes-->
-                      <div class="leftimage">
+                      <div class="leftrender colorrender">
                         {!!$articles->render()!!}
                       </div>
                    

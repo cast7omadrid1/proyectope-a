@@ -68,7 +68,7 @@
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
                                    
                                    <!--Imagen de avatar, si no esta cambiado, muestra imagen por defecto-->
-                                   <img width="20px" height="20px" src="{{ asset('uploads/avatars/'.Auth::user()->avatar) }}">
+                                   <img width="20px" height="20px" class="img-circle " src="{{ asset('uploads/avatars/'.Auth::user()->avatar) }}">
                                     {{ Auth::user()->name }} <span class="caret"></span>
 
                                 </a>

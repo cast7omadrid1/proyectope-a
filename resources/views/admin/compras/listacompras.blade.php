@@ -11,7 +11,7 @@
 
 	<!--Buscador de comentarios-->
 	{{Form::open(['route' => 'compras.index','method' => 'GET', 'class' => 'navbar-form pull-right'])}}
-	<div class="input-group">
+	<div class="input-group marginbuscador">
 		{{Form::text('compras',null,['class'=>'form-control','placeholder'=>'Buscar compra','aria-describedby'=>'search'])}}
 		<span class="input-group-addon" id="search"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></span>
 	</div>
@@ -43,8 +43,8 @@
 								<td>{{$compra->created_at}}</td>
 								<td>
 									<!--Botones para editar y eliminar articulos-->
-									<a href="{{route('admin.compras.edit', $compra->id)}}" class="btn btn-primary">Editar</a>
-									<a href="{{route('admin.compras.destroy', $compra->id)}}" class="btn btn-success" onclick="return confirm('¿Estas seguro de eliminar esta compra?')">Eliminar</a>		
+									<a href="{{route('admin.compras.edit', $compra->id)}}" onmouseover="javascript:this.style.backgroundColor='#404040';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn botonpaneladmin">Editar</a>
+									<a href="{{route('admin.compras.destroy', $compra->id)}}" onmouseover="javascript:this.style.backgroundColor='#404040';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn botonpaneladmin " onclick="return confirm('¿Estas seguro de eliminar esta compra?')">Eliminar</a>		
 								</td>
 							</tr>
 						@endforeach
@@ -54,9 +54,9 @@
 				<!--Mostramos botones para cambiar en la lista de comentarios -->
 				{!!$compras->render()!!}
 			</div>
-			<hr><a href="{{route('compras.create')}}" onmouseover="javascript:this.style.backgroundColor='#19F0DB';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn btn-primary botonpaneladmin">Añadir compra</a>
+			<hr><a href="{{route('compras.create')}}" onmouseover="javascript:this.style.backgroundColor='#404040';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn  botonpaneladmin">Añadir compra</a>
 			
-			<a href="{{route('admin.excel_compras')}}" onmouseover="javascript:this.style.backgroundColor='#19F0DB';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn btn-primary botonpaneladmin">Exportar excel</a>
+			<a href="{{route('admin.excel_compras')}}" onmouseover="javascript:this.style.backgroundColor='#404040';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn  botonpaneladmin">Exportar excel</a>
 
 
 

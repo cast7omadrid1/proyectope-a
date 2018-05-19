@@ -66,13 +66,13 @@
 
 
                                 @if (Auth::user()->user == 1 )
-                                  <a href="{{route('admin.articles.edit', $article->id)}}" onmouseover="javascript:this.style.backgroundColor='#19F0DB';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn btn-primary ">Editar</a>
+                                  <a href="{{route('admin.articles.edit', $article->id)}}" onmouseover="javascript:this.style.backgroundColor='#404040';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn colorboton ">Editar</a>
                                 @else
                                 <!--para que al editar un user normal no pueda añadir categoria admin-->
-                                  <a href="{{route('admin.articles.editcategoryone', $article->id)}}" onmouseover="javascript:this.style.backgroundColor='#19F0DB';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn btn-primary ">Editar</a>
+                                  <a href="{{route('admin.articles.editcategoryone', $article->id)}}" onmouseover="javascript:this.style.backgroundColor='#404040';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn btn-primary ">Editar</a>
                                 @endif
                                 <!--Al eliminar un articulo no regresa a admin, lo hace a la galeria de imagenes-->
-                                <a href="{{route('admin.articles.destroyusernormal',$article->id)}}" class="btn btn-success" onclick="return confirm('¿Estas seguro de eliminar este articulo?')">Eliminar</a>
+                                <a href="{{route('admin.articles.destroyusernormal',$article->id)}}" onmouseover="javascript:this.style.backgroundColor='#404040';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn colorboton" onclick="return confirm('¿Estas seguro de eliminar este articulo?')">Eliminar</a>
 
 
                                 <!--Mostramos hace cuanto se ha creado el ultimo articulo-->
@@ -87,7 +87,7 @@
                       </div>
 
                       <!--Render para pasar imagenes-->
-                      <div class="leftimage">
+                      <div class="leftrender colorrender">
                         {!!$articles->render()!!}
                       </div>
                    

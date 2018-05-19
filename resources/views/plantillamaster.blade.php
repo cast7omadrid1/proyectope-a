@@ -126,7 +126,7 @@
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
                                    
                                    <!--Imagen de avatar, si no esta cambiado, muestra imagen por defecto-->
-                                   <img width="20px" height="20px" src="{{ asset('uploads/avatars/'.Auth::user()->avatar) }}">
+                                   <img width="20px" height="20px" class="img-circle " src="{{ asset('uploads/avatars/'.Auth::user()->avatar) }}">
                                     {{ Auth::user()->name }} <span class="caret"></span>
 
                                 </a>
@@ -231,7 +231,7 @@
             <div class="footer-widget contact-widget">
               <h4 class="">Contacta con nosotros<span class="head-line"></span></h4>
                 <p>Si tienes alguna duda ve a nuestra zona de contacto.</p>
-                <a href="{{ url('/contacto') }}" onmouseover="javascript:this.style.backgroundColor='#19F0DB';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn btn-primary botonpaneladmin">Contacto</a>
+                <a href="{{ url('/contacto') }}" onmouseover="javascript:this.style.backgroundColor='#19F0DB';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn  botonpaneladmin">Contacto</a>
             </div>
           </div>
           <!-- .col-md-3 -->

@@ -10,7 +10,7 @@
 
 	<!--Buscador de comentarios-->
 	{{Form::open(['route' => 'pagos.index','method' => 'GET', 'class' => 'navbar-form pull-right'])}}
-	<div class="input-group">
+	<div class="input-group marginbuscador">
 		{{Form::text('pagos',null,['class'=>'form-control','placeholder'=>'Buscar pago socio','aria-describedby'=>'search'])}}
 		<span class="input-group-addon" id="search"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></span>
 	</div>
@@ -38,8 +38,8 @@
 								<td>{{$pago->created_at}}</td>
 								<td>
 									<!--Botones para editar y eliminar articulos-->
-									<a href="{{route('admin.pagos.edit', $pago->id)}}" class="btn btn-primary">Editar</a>
-									<a href="{{route('admin.pagos.destroy', $pago->id)}}" class="btn btn-success" onclick="return confirm('¿Estas seguro de eliminar este pago?')">Eliminar</a>		
+									<a href="{{route('admin.pagos.edit', $pago->id)}}" onmouseover="javascript:this.style.backgroundColor='#404040';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn botonpaneladmin">Editar</a>
+									<a href="{{route('admin.pagos.destroy', $pago->id)}}" onmouseover="javascript:this.style.backgroundColor='#404040';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn botonpaneladmin" onclick="return confirm('¿Estas seguro de eliminar este pago?')">Eliminar</a>		
 								</td>
 							</tr>
 						@endforeach
@@ -49,11 +49,11 @@
 				<!--Mostramos botones para cambiar en la lista de comentarios -->
 			{!!$pagos->render()!!}
 			</div>
-			<hr><a href="{{route('pagos.create')}}" onmouseover="javascript:this.style.backgroundColor='#19F0DB';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn btn-primary botonpaneladmin">Añadir pago</a>
+			<hr><a href="{{route('pagos.create')}}" onmouseover="javascript:this.style.backgroundColor='#404040';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn  botonpaneladmin">Añadir pago</a>
 			
-			<a href="{{route('admin.excel_pagosok')}}" onmouseover="javascript:this.style.backgroundColor='#19F0DB';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn btn-primary botonpaneladmin">Exportar excel pago ok</a>
+			<a href="{{route('admin.excel_pagosok')}}" onmouseover="javascript:this.style.backgroundColor='#404040';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn  botonpaneladmin">Exportar excel pago ok</a>
 	
-			<a href="{{route('admin.excel_pagosno')}}" onmouseover="javascript:this.style.backgroundColor='#19F0DB';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn btn-primary botonpaneladmin">Exportar excel por pagar</a>
+			<a href="{{route('admin.excel_pagosno')}}" onmouseover="javascript:this.style.backgroundColor='#404040';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn  botonpaneladmin">Exportar excel por pagar</a>
 
 
 		</div>

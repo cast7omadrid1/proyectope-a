@@ -53,7 +53,13 @@ h2:hover{
 .botonpaneladmin{
 	
 	background-color: #00D2A8;
+	color:white;
 }
+
+.botonpaneladmin:hover{
+	color:white;
+}
+
 
 /*color boton panel admin*/
 .botonpanel{
@@ -90,7 +96,12 @@ h2:hover{
 .leftimage{
 	padding-left: 30px;
 	padding-right: 10px;
+	
+}
 
+.leftrender{
+	padding-left: 70px;
+	padding-right: 10px;
 }
 
 /*para la sombra de los div*/
@@ -105,13 +116,30 @@ h2:hover{
 	margin-left: 160px;
 	margin-bottom: 50px;
 	background-color: #00D2A8;
+	color:white;
 }
+
+/*margen y color para boton galeria imagenes */
+.paddingboton:hover{
+	margin-left: 160px;
+	margin-bottom: 50px;
+	color:white;
+}
+
 
 /*padding botón editar*/
 .paddingeditboton{
 	margin-left: 10px;
 	margin-bottom: 50px;
 	background-color: #00D2A8;
+	color:white;
+}
+
+/*padding botón editar*/
+.paddingeditboton:hover{
+	margin-left: 10px;
+	margin-bottom: 50px;
+	color:white;
 }
 
 /*pading para category y tags*/
@@ -165,7 +193,28 @@ transition:transform 1s ease-out;
 transform: scale(1.1)
 }
 
+.colorboton{
+	background-color: #00D2A8;
+	color:white;
+}
 
+.colorboton:hover{
+	
+	color:white;
+}
+
+/*cambiar color botones sumbmit*/
+a.main-button, input[type="submit"]{
+	background-color: #00D2A8;
+}
+
+.pagination > .active > span{
+	background-color: #00D2A8;
+}
+
+.pagination > .active > span:hover{
+	background-color: #404040;
+}
 /*------------------------------------------*/
 /*	 04 - Estilos para organigrama
 /*------------------------------------------*/
@@ -187,10 +236,6 @@ transform: scale(1.1)
 .altura{
 	padding-top: 20px;
 	padding-bottom: 50px;
-}
-/*cambiar color botones sumbmit*/
-a.main-button, input[type="submit"]{
-	background-color: #00D2A8;
 }
 
 
@@ -233,4 +278,13 @@ a.main-button, input[type="submit"]{
 .fa-arrow-right::before{
 	color:#262626;
 }
+
+/*------------------------------------------*/
+/*	 06 - Estilos para admin
+/*------------------------------------------*/
+/*margen para buscador*/
+.marginbuscador{
+	margin-right: 50px;
+}
+
 

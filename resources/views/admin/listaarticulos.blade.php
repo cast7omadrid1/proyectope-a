@@ -14,7 +14,7 @@
 
 <!--Buscador de articulos-->
 	{{Form::open(['route' => 'articles.index','method' => 'GET', 'class' => 'navbar-form pull-right'])}}
-	<div class="input-group">
+	<div class="input-group marginbuscador">
 		{{Form::text('title',null,['class'=>'form-control','placeholder'=>'Buscar titulo','aria-describedby'=>'search'])}}
 		<span class="input-group-addon" id="search"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></span>
 	</div>

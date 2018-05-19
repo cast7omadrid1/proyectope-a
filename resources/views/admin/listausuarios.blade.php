@@ -12,7 +12,7 @@
 
  <!--Buscador de usuarios-->
 {{Form::open(['route' => 'admin.listausuarios','method' => 'GET', 'class' => 'navbar-form pull-right'])}}
-<div class="input-group">
+<div class="input-group marginbuscador">
 	{{Form::text('name',null,['class'=>'form-control','placeholder'=>'Buscar nombre user','aria-describedby'=>'search'])}}
 	<span class="input-group-addon" id="search"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></span>
 </div>
@@ -53,8 +53,8 @@
 									<td>{{$user->socio}}</td>
 									<td>
 										<!--Botones para editar y eliminar usuarios-->
-										<a href="{{route('admin.edit', $user->id)}}" class="btn btn-primary">Editar</a>
-										<a href="{{route('admin.listausuarios.destroy',$user)}}" class="btn btn-success" onclick="return confirm('¿Estas seguro de eliminar este usuario?')">Eliminar</a>
+										<a href="{{route('admin.edit', $user->id)}}" onmouseover="javascript:this.style.backgroundColor='#404040';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn botonpaneladmin ">Editar</a>
+										<a href="{{route('admin.listausuarios.destroy',$user)}}" onmouseover="javascript:this.style.backgroundColor='#404040';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn botonpaneladmin" onclick="return confirm('¿Estas seguro de eliminar este usuario?')">Eliminar</a>
 										
 									</td>
 							</tr>
@@ -65,9 +65,9 @@
 			<!--Mostramos botones para cambiar en la lista de usuarios-->
 				{!!$users->render()!!}
 
-				<hr><a href="{{route('admin.createuser')}}" onmouseover="javascript:this.style.backgroundColor='#19F0DB';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn btn-primary botonpaneladmin">Añadir usuario</a>
+				<hr><a href="{{route('admin.createuser')}}" onmouseover="javascript:this.style.backgroundColor='#404040';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn botonpaneladmin">Añadir usuario</a>
 
-				<a href="{{route('admin.excel_users')}}" onmouseover="javascript:this.style.backgroundColor='#19F0DB';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn btn-primary botonpaneladmin">Exportar excel</a>
+				<a href="{{route('admin.excel_users')}}" onmouseover="javascript:this.style.backgroundColor='#404040';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn  botonpaneladmin">Exportar excel</a>
   		</div>
 	</div>
 
