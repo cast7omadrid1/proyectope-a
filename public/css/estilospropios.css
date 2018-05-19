@@ -56,6 +56,11 @@ h2:hover{
 	color:white;
 }
 
+.btn-primary{
+	background-color: #00D2A8;
+	color:white;
+}
+
 .botonpaneladmin:hover{
 	color:white;
 }
@@ -287,4 +292,6 @@ a.main-button, input[type="submit"]{
 	margin-right: 50px;
 }
 
-
+.paddingaccion{
+	padding-left: 800px;
+}

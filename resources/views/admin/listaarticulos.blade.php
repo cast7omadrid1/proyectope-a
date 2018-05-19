@@ -55,8 +55,8 @@
 
 						<td>
 							<!--Botones para editar y eliminar articulos-->
-							<a href="{{route('admin.articles.edit', $article->id)}}" class="btn btn-primary">Editar</a>
-							<a href="{{route('admin.articles.destroy',$article->id)}}" class="btn btn-success" onclick="return confirm('¿Estas seguro de eliminar este articulo?')">Eliminar</a>		
+							<a href="{{route('admin.articles.edit', $article->id)}}" onmouseover="javascript:this.style.backgroundColor='#404040';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn botonpaneladmin">Editar</a>
+							<a href="{{route('admin.articles.destroy',$article->id)}}" onmouseover="javascript:this.style.backgroundColor='#404040';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn botonpaneladmin" onclick="return confirm('¿Estas seguro de eliminar este articulo?')">Eliminar</a>		
 						</td>
 
 					</tr>
@@ -71,9 +71,9 @@
 
 		<!--<hr><a href="{{route('articles.create')}}" class="btn btn-primary">Añadir imagen</a>-->
 
-		<hr><a href="{{route('articles.create')}}" onmouseover="javascript:this.style.backgroundColor='#19F0DB';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn btn-primary botonpaneladmin">Añadir imagen</a>
+		<hr><a href="{{route('articles.create')}}" onmouseover="javascript:this.style.backgroundColor='#404040';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn  botonpaneladmin">Añadir imagen</a>
 			                    
-		<a href="{{route('admin.excel_articles')}}" onmouseover="javascript:this.style.backgroundColor='#19F0DB';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn btn-primary botonpaneladmin">Exportar excel</a>
+		<a href="{{route('admin.excel_articles')}}" onmouseover="javascript:this.style.backgroundColor='#404040';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn  botonpaneladmin">Exportar excel</a>
 	</div>
 </div>
 

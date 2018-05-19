@@ -226,11 +226,21 @@ Route::get('tags/{name}',[
 
 ]);
 
-/*ruta para almacenar comentario*/
+/*ruta para almacenar comentario desde tus imagenes*/
 Route::put('guardarcomentarios/{id}/store',[
 
 	'uses'=>'ImagenesController@store',
 	'as' => 'imagepena.store',
+
+]);
+
+
+
+/*ruta para almacenar comentario*/
+Route::put('guardarcomentariostusimagenes/{id}/storetusimagenes',[
+
+	'uses'=>'ImagenesController@storetusimagenes',
+	'as' => 'imagepena.storetusimagenes',
 
 ]);
 

@@ -32,8 +32,8 @@
 							<td>{{$category->name}}</td>
 							<td>
 								<!--Botones para editar y eliminar categorias-->
-								<a href="{{route('admin.categories.edit',$category->id)}}" class="btn btn-primary">Editar</a>
-								<a href="{{route('admin.categories.destroy',$category->id)}}" class="btn btn-success" onclick="return confirm('¿Estas seguro de eliminar esta categoria?')">Eliminar</a>				
+								<a href="{{route('admin.categories.edit',$category->id)}}" onmouseover="javascript:this.style.backgroundColor='#404040';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn  botonpaneladmin">Editar</a>
+								<a href="{{route('admin.categories.destroy',$category->id)}}" onmouseover="javascript:this.style.backgroundColor='#404040';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn  botonpaneladmin" onclick="return confirm('¿Estas seguro de eliminar esta categoria?')">Eliminar</a>				
 							</td>
 						</tr>
 					@endforeach
@@ -42,9 +42,9 @@
 			</div>
 			<!--Mostramos botones para cambiar en la lista de cataegorias-->
 			{!!$categories->render()!!} 
-			<hr><a href="{{route('categories.create')}}" onmouseover="javascript:this.style.backgroundColor='#19F0DB';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn btn-primary botonpaneladmin">Añadir categoria</a>
+			<hr><a href="{{route('categories.create')}}" onmouseover="javascript:this.style.backgroundColor='#404040';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn  botonpaneladmin">Añadir categoria</a>
 
-			<a href="{{route('admin.excel_categories')}}" onmouseover="javascript:this.style.backgroundColor='#19F0DB';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn btn-primary botonpaneladmin">Exportar excel</a>
+			<a href="{{route('admin.excel_categories')}}" onmouseover="javascript:this.style.backgroundColor='#404040';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn  botonpaneladmin">Exportar excel</a>
 
 		</div>
 	</div>

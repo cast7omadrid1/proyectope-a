@@ -36,8 +36,8 @@
 								<td>{{$comentario->user->name}}</td>
 								<td>
 									<!--Botones para editar y eliminar articulos-->
-									<a href="{{route('admin.comentarios.edit', $comentario->id)}}" class="btn btn-primary">Editar</a>
-									<a href="{{route('admin.comentarios.destroy',$comentario->id)}}" class="btn btn-success" onclick="return confirm('¿Estas seguro de eliminar este comentario?')">Eliminar</a>		
+									<a href="{{route('admin.comentarios.edit', $comentario->id)}}" onmouseover="javascript:this.style.backgroundColor='#404040';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn  botonpaneladmin">Editar</a>
+									<a href="{{route('admin.comentarios.destroy',$comentario->id)}}" onmouseover="javascript:this.style.backgroundColor='#404040';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn  botonpaneladmin" onclick="return confirm('¿Estas seguro de eliminar este comentario?')">Eliminar</a>		
 								</td>
 							</tr>
 						@endforeach
@@ -48,7 +48,7 @@
 			<!--Mostramos botones para cambiar en la lista de comentarios -->
 			{!!$comentarios->render()!!}
 			</br>
-			<a href="{{route('admin.excel_comentarios')}}" onmouseover="javascript:this.style.backgroundColor='#19F0DB';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn btn-primary botonpaneladmin">Exportar excel</a>
+			<a href="{{route('admin.excel_comentarios')}}" onmouseover="javascript:this.style.backgroundColor='#404040';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn  botonpaneladmin">Exportar excel</a>
 		</div>
 	</div>
 	

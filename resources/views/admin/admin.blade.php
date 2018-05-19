@@ -306,8 +306,8 @@
           <div class="col-md-4 col-xs-12">
             <div class="footer-widget contact-widget">
               <h4 class="">Contacta con nosotros<span class="head-line"></span></h4>
-                <p>Si tienes alguna duda ve a nuestra zona de contacto.</p>
-                <a href="{{ url('/contacto') }}" onmouseover="javascript:this.style.backgroundColor='#19F0DB';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn btn-primary botonpaneladmin">Contacto</a>
+                <p>Si tienes alguna duda ¡Preguntanos!</p>
+                <a href="{{ url('/contacto') }}" onmouseover="javascript:this.style.backgroundColor='#19F0DB';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn  botonpaneladmin" class="btn btn-primary botonpaneladmin">Contacto</a>
             </div>
           </div>
           <!-- .col-md-3 -->

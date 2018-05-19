@@ -82,6 +82,30 @@ class ImagenesController extends Controller
 		
 	}
 
+	/*metodo para agregar comentarios a los articulos*/
+	public function storetusimagenes(Request $request,$id){
+
+
+		//creamos un nuevo objeto para comentarios
+		$comentarios = new 	Comentarios($request->all());
+		$comentarios->usuario_id = \Auth::user()->id;
+		//dd($comentarios);
+
+		
+		$articles=Article::find($id);
+		//dd($articles);
+    	
+    	$comentarios->articulo_id = $articles->id;
+    	//dd($comentarios);
+		
+		$comentarios->save();
+
+		flash('El comentario se ha creado correctamente')->success();
+		
+		return redirect()->route('imagenesusuario');
+		
+	}
+
 
 	public function searchCategory($name){
 

@@ -13,8 +13,7 @@
   	@endif
 
 
-
-	
+			<!--Si esta logueado-->
 			@if (Auth::user()->user == 1 )
 	
 				<!--La ruta hace referencia al metodo utilizado por el formulario-->

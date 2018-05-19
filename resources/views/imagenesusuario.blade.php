@@ -51,7 +51,7 @@
 
                               
                               <!--La ruta hace referencia al metodo utilizado por el formulario-->
-                              {{Form::open(['route'=>['imagepena.store',$article],'method'=>'PUT','files'=>true])}}
+                              {{Form::open(['route'=>['imagepena.storetusimagenes',$article],'method'=>'PUT','files'=>true])}}
 
                                  <div class="form-group">
                                   {{Form::text('comentarios',null,['class'=>'form-control','placeholder'=>'Añade tu comentario','required'])}}

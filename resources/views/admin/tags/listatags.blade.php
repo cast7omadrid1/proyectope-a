@@ -32,8 +32,8 @@
 							<td>{{$tag->name}}</td>
 							<td>
 								<!--Botones para editar y eliminar tags-->
-								<a href="{{route('admin.tags.edit',$tag->id)}}" class="btn btn-primary">Editar</a>
-								<a href="{{route('admin.tags.destroy',$tag->id)}}" class="btn btn-success" onclick="return confirm('¿Estas seguro de eliminar este tag?')">Eliminar</a>				
+								<a href="{{route('admin.tags.edit',$tag->id)}}" onmouseover="javascript:this.style.backgroundColor='#404040';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn  botonpaneladmin">Editar</a>
+								<a href="{{route('admin.tags.destroy',$tag->id)}}" onmouseover="javascript:this.style.backgroundColor='#404040';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn  botonpaneladmin" onclick="return confirm('¿Estas seguro de eliminar este tag?')">Eliminar</a>				
 							</td>
 						</tr>
 					@endforeach
@@ -42,9 +42,9 @@
 			</div>
 			<!--Mostramos botones para cambiar en la lista de tags-->
 			{!!$tags->render()!!} 
-			<hr><a href="{{route('tag.create')}}" onmouseover="javascript:this.style.backgroundColor='#19F0DB';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn btn-primary botonpaneladmin">Añadir tag</a>
+			<hr><a href="{{route('tag.create')}}" onmouseover="javascript:this.style.backgroundColor='#404040';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn  botonpaneladmin">Añadir tag</a>
 
-			<a href="{{route('admin.excel_tags')}}" onmouseover="javascript:this.style.backgroundColor='#19F0DB';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn btn-primary botonpaneladmin">Exportar excel</a>
+			<a href="{{route('admin.excel_tags')}}" oonmouseover="javascript:this.style.backgroundColor='#404040';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn  botonpaneladmin">Exportar excel</a>
 		</div>
 	</div>
 @endsection
