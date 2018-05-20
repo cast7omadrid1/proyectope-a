@@ -90,36 +90,7 @@ h2:hover{
 	box-shadow: 7px 6px 5px 0px rgba(0,0,0,0.75);
 }
 
-/*margen y color para boton galeria imagenes */
-.paddingboton{
-	margin-left: 160px;
-	margin-bottom: 50px;
-	background-color: #00D2A8;
-	color:white;
-}
 
-/*margen y color para boton galeria imagenes */
-.paddingboton:hover{
-	margin-left: 160px;
-	margin-bottom: 50px;
-	color:white;
-}
-
-
-/*padding botón editar*/
-.paddingeditboton{
-	margin-left: 10px;
-	margin-bottom: 50px;
-	background-color: #00D2A8;
-	color:white;
-}
-
-/*padding botón editar*/
-.paddingeditboton:hover{
-	margin-left: 10px;
-	margin-bottom: 50px;
-	color:white;
-}
 
 /*pading para category y tags*/
 .rightpanel{
@@ -202,15 +173,9 @@ a.main-button, input[type="submit"]{
 	text-align: center;
 }
 
-/*padding iconos redes centrar*/
-.socialcenter{
-	padding-right: 110px;
-}
 
-/*padding iconos redes centrar presidente*/
-.socialpresidente{
-	padding-right: 460px;
-}
+
+
 /*distancia de separacion con pie de página*/
 .altura{
 	padding-top: 20px;

@@ -20,7 +20,7 @@ class TagsController extends Controller
     {
         //usamos el metodo Search para el buscador de tags
 
-        $tags=Tag::Search($request->name)->orderBy("id","ASC")->paginate(2);
+        $tags=Tag::Search($request->name)->orderBy("id","ASC")->paginate(4);
         return view('admin.tags.listatags')->with('tags',$tags);
 
     }

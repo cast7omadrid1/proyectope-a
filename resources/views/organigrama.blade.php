@@ -6,7 +6,7 @@
 
 
 <div class="col-xs-12">
-  <h4 class="classic-title tituloseccion" onmouseover="javascript:this.style.color='#00D2A8';" onmouseout="javascript:this.style.color='#262626';"><span>Organigrama de la peña</span></h4>
+  <h4 class="classic-title tituloseccionorganigrama" onmouseover="javascript:this.style.color='#00D2A8';" onmouseout="javascript:this.style.color='#262626';"><span>Organigrama de la peña</span></h4>
 </div>
 
 
@@ -24,13 +24,13 @@
           <p>Presidente de la peña y primer miembro de la junta de la peña deportiva Soccer adicts</p>
           <ul class="social-list socialpresidente">
                 <li>
-                  <a class="facebook itl-tooltip" data-placement="bottom" title="Facebook" href="#"><i class="fa fa-facebook"></i></a>
+                  <a class="facebook itl-tooltip anchoicono" data-placement="bottom" title="Facebook" href="#"><i class="fa fa-facebook"></i></a>
                 </li>
                 <li>
-                  <a class="twitter itl-tooltip" data-placement="bottom" title="Twitter" href="#"><i class="fa fa-twitter"></i></a>
+                  <a class="twitter itl-tooltip anchoicono" data-placement="bottom" title="Twitter" href="#"><i class="fa fa-twitter"></i></a>
                 </li>
                 <li>
-                  <a class="instgram itl-tooltip" data-placement="bottom" title="Instagram" href="#"><i class="fa fa-instagram"></i></a>
+                  <a class="instagram itl-tooltip anchoicono" data-placement="bottom" title="Instagram" href="#"><i class="fa fa-instagram"></i></a>
                 </li>
           </ul>
         </div>
@@ -47,13 +47,13 @@
           <p>Vicepresidente y segundo miembro de la junta de la peña deportiva Soccer adicts</p>
           <ul class="social-list socialcenter">
                 <li>
-                  <a class="facebook itl-tooltip" data-placement="bottom" title="Facebook" href="#"><i class="fa fa-facebook"></i></a>
+                  <a class="facebook itl-tooltip anchoicono" data-placement="bottom" title="Facebook" href="#"><i class="fa fa-facebook"></i></a>
                 </li>
                 <li>
-                  <a class="twitter itl-tooltip" data-placement="bottom" title="Twitter" href="#"><i class="fa fa-twitter"></i></a>
+                  <a class="twitter itl-tooltip anchoicono" data-placement="bottom" title="Twitter" href="#"><i class="fa fa-twitter"></i></a>
                 </li>
                 <li>
-                  <a class="instgram itl-tooltip" data-placement="bottom" title="Instagram" href="#"><i class="fa fa-instagram"></i></a>
+                  <a class="instgram itl-tooltip anchoicono" data-placement="bottom" title="Instagram" href="#"><i class="fa fa-instagram"></i></a>
                 </li>
           </ul>
         </div> 
@@ -68,13 +68,13 @@
           <p>Vicepresidente y segundo miembro de la junta de la peña deportiva Soccer adicts</p>
           <ul class="social-list socialcenter">
                 <li>
-                  <a class="facebook itl-tooltip" data-placement="bottom" title="Facebook" href="#"><i class="fa fa-facebook"></i></a>
+                  <a class="facebook itl-tooltip anchoicono" data-placement="bottom" title="Facebook" href="#"><i class="fa fa-facebook"></i></a>
                 </li>
                 <li>
-                  <a class="twitter itl-tooltip" data-placement="bottom" title="Twitter" href="#"><i class="fa fa-twitter"></i></a>
+                  <a class="twitter itl-tooltip anchoicono" data-placement="bottom" title="Twitter" href="#"><i class="fa fa-twitter"></i></a>
                 </li>
                 <li>
-                  <a class="instgram itl-tooltip" data-placement="bottom" title="Instagram" href="#"><i class="fa fa-instagram"></i></a>
+                  <a class="instgram itl-tooltip anchoicono" data-placement="bottom" title="Instagram" href="#"><i class="fa fa-instagram"></i></a>
                 </li>
           </ul>
         </div> 
@@ -90,13 +90,13 @@
           
            <ul class="social-list socialcenter">
                 <li>
-                  <a class="facebook itl-tooltip" data-placement="bottom" title="Facebook" href="#"><i class="fa fa-facebook"></i></a>
+                  <a class="facebook itl-tooltip anchoicono" data-placement="bottom" title="Facebook" href="#"><i class="fa fa-facebook"></i></a>
                 </li>
                 <li>
-                  <a class="twitter itl-tooltip" data-placement="bottom" title="Twitter" href="#"><i class="fa fa-twitter"></i></a>
+                  <a class="twitter itl-tooltip anchoicono" data-placement="bottom" title="Twitter" href="#"><i class="fa fa-twitter"></i></a>
                 </li>
                 <li>
-                  <a class="instgram itl-tooltip" data-placement="bottom" title="Instagram" href="#"><i class="fa fa-instagram"></i></a>
+                  <a class="instgram itl-tooltip anchoicono" data-placement="bottom" title="Instagram" href="#"><i class="fa fa-instagram"></i></a>
                 </li>
           </ul>
         </div>
@@ -110,13 +110,13 @@
           <p>Miembro compromisario de la peña deportiva Soccer adicts</p>
           <ul class="social-list socialcenter">
                 <li>
-                  <a class="facebook itl-tooltip" data-placement="bottom" title="Facebook" href="#"><i class="fa fa-facebook"></i></a>
+                  <a class="facebook itl-tooltip anchoicono" data-placement="bottom" title="Facebook" href="#"><i class="fa fa-facebook"></i></a>
                 </li>
                 <li>
-                  <a class="twitter itl-tooltip" data-placement="bottom" title="Twitter" href="#"><i class="fa fa-twitter"></i></a>
+                  <a class="twitter itl-tooltip anchoicono" data-placement="bottom" title="Twitter" href="#"><i class="fa fa-twitter"></i></a>
                 </li>
                 <li>
-                  <a class="instgram itl-tooltip" data-placement="bottom" title="Instagram" href="#"><i class="fa fa-instagram"></i></a>
+                  <a class="instgram itl-tooltip anchoicono" data-placement="bottom" title="Instagram" href="#"><i class="fa fa-instagram"></i></a>
                 </li>
           </ul>
         </div> 
@@ -130,13 +130,13 @@
           <p>Miembro compromisario de la peña deportiva Soccer adicts</p>
           <ul class="social-list socialcenter">
                 <li>
-                  <a class="facebook itl-tooltip" data-placement="bottom" title="Facebook" href="#"><i class="fa fa-facebook"></i></a>
+                  <a class="facebook itl-tooltip anchoicono" data-placement="bottom" title="Facebook" href="#"><i class="fa fa-facebook"></i></a>
                 </li>
                 <li>
-                  <a class="twitter itl-tooltip" data-placement="bottom" title="Twitter" href="#"><i class="fa fa-twitter"></i></a>
+                  <a class="twitter itl-tooltip anchoicono" data-placement="bottom" title="Twitter" href="#"><i class="fa fa-twitter"></i></a>
                 </li>
                 <li>
-                  <a class="instgram itl-tooltip" data-placement="bottom" title="Instagram" href="#"><i class="fa fa-instagram"></i></a>
+                  <a class="instgram itl-tooltip anchoicono" data-placement="bottom" title="Instagram" href="#"><i class="fa fa-instagram"></i></a>
                 </li>
           </ul>
         </div> 
@@ -150,13 +150,13 @@
           <p>Miembro compromisario de la peña deportiva Soccer adicts</p>
           <ul class="social-list socialcenter">
                 <li>
-                  <a class="facebook itl-tooltip" data-placement="bottom" title="Facebook" href="#"><i class="fa fa-facebook"></i></a>
+                  <a class="facebook itl-tooltip anchoicono" data-placement="bottom" title="Facebook" href="#"><i class="fa fa-facebook"></i></a>
                 </li>
                 <li>
-                  <a class="twitter itl-tooltip" data-placement="bottom" title="Twitter" href="#"><i class="fa fa-twitter"></i></a>
+                  <a class="twitter itl-tooltip anchoicono" data-placement="bottom" title="Twitter" href="#"><i class="fa fa-twitter"></i></a>
                 </li>
                 <li>
-                  <a class="instgram itl-tooltip" data-placement="bottom" title="Instagram" href="#"><i class="fa fa-instagram"></i></a>
+                  <a class="instgram itl-tooltip anchoicono" data-placement="bottom" title="Instagram" href="#"><i class="fa fa-instagram"></i></a>
                 </li>
           </ul>
         </div> 
@@ -171,13 +171,13 @@
           <p>Primer vocal de la peña deportiva Soccer adicts</p>
           <ul class="social-list socialcenter">
                 <li>
-                  <a class="facebook itl-tooltip" data-placement="bottom" title="Facebook" href="#"><i class="fa fa-facebook"></i></a>
+                  <a class="facebook itl-tooltip anchoicono" data-placement="bottom" title="Facebook" href="#"><i class="fa fa-facebook"></i></a>
                 </li>
                 <li>
-                  <a class="twitter itl-tooltip" data-placement="bottom" title="Twitter" href="#"><i class="fa fa-twitter"></i></a>
+                  <a class="twitter itl-tooltip anchoicono" data-placement="bottom" title="Twitter" href="#"><i class="fa fa-twitter"></i></a>
                 </li>
                 <li>
-                  <a class="instgram itl-tooltip" data-placement="bottom" title="Instagram" href="#"><i class="fa fa-instagram"></i></a>
+                  <a class="instgram itl-tooltip anchoicono" data-placement="bottom" title="Instagram" href="#"><i class="fa fa-instagram"></i></a>
                 </li>
           </ul>
         </div> 
@@ -192,13 +192,13 @@
           <p>Segundo vocal de la peña deportiva Soccer adicts</p>
           <ul class="social-list socialcenter">
                 <li>
-                  <a class="facebook itl-tooltip" data-placement="bottom" title="Facebook" href="#"><i class="fa fa-facebook"></i></a>
+                  <a class="facebook itl-tooltip anchoicono" data-placement="bottom" title="Facebook" href="#"><i class="fa fa-facebook"></i></a>
                 </li>
                 <li>
-                  <a class="twitter itl-tooltip" data-placement="bottom" title="Twitter" href="#"><i class="fa fa-twitter"></i></a>
+                  <a class="twitter itl-tooltip anchoicono" data-placement="bottom" title="Twitter" href="#"><i class="fa fa-twitter"></i></a>
                 </li>
                 <li>
-                  <a class="instgram itl-tooltip" data-placement="bottom" title="Instagram" href="#"><i class="fa fa-instagram"></i></a>
+                  <a class="instgram itl-tooltip anchoicono" data-placement="bottom" title="Instagram" href="#"><i class="fa fa-instagram"></i></a>
                 </li>
           </ul>
         </div> 
@@ -212,13 +212,13 @@
           <p>Tercer vocal de la peña deportiva Soccer adicts</p>
           <ul class="social-list socialcenter">
                 <li>
-                  <a class="facebook itl-tooltip" data-placement="bottom" title="Facebook" href="#"><i class="fa fa-facebook"></i></a>
+                  <a class="facebook itl-tooltip anchoicono" data-placement="bottom" title="Facebook" href="#"><i class="fa fa-facebook"></i></a>
                 </li>
                 <li>
-                  <a class="twitter itl-tooltip" data-placement="bottom" title="Twitter" href="#"><i class="fa fa-twitter"></i></a>
+                  <a class="twitter itl-tooltip anchoicono" data-placement="bottom" title="Twitter" href="#"><i class="fa fa-twitter"></i></a>
                 </li>
                 <li>
-                  <a class="instgram itl-tooltip" data-placement="bottom" title="Instagram" href="#"><i class="fa fa-instagram"></i></a>
+                  <a class="instgram itl-tooltip anchoicono" data-placement="bottom" title="Instagram" href="#"><i class="fa fa-instagram"></i></a>
                 </li>
           </ul>
         </div> 

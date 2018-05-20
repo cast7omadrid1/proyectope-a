@@ -13,11 +13,12 @@
 		height: 250px;
 	}
 
+	/*tamaño panel calendario*/
 	.tamañopanelcalendario{
 		width: 340px;
 		height: 250px;
 	}
-
+	/*noticias rss*/
 	.paddingizquierda{
 		padding-left: 150px;
 	}
@@ -49,6 +50,57 @@
 		padding-left: 30px;
 
 	}
+
+	/*padding iconos redes centrar presidente*/
+	.socialpresidente{
+		padding-right: 460px;
+	}
+
+	/*padding iconos redes centrar*/
+	.socialcenter{
+		padding-right: 110px;
+	}
+
+
+	/*margen y color para boton galeria imagenes */
+.paddingboton{
+	margin-left: 160px;
+	margin-bottom: 50px;
+	background-color: #00D2A8;
+	color:white;
+}
+
+/*margen y color para boton galeria imagenes */
+.paddingboton:hover{
+	margin-left: 160px;
+	margin-bottom: 50px;
+	color:white;
+}
+
+
+
+/*padding botón editar*/
+.paddingeditboton{
+	margin-left: 10px;
+	margin-bottom: 50px;
+	background-color: #00D2A8;
+	color:white;
+}
+
+/*padding botón editar*/
+.paddingeditboton:hover{
+	margin-left: 10px;
+	margin-bottom: 50px;
+	color:white;
+}
+
+/*tamaño logohome*/
+.logohome{
+	width: 300px;
+	margin-left: 180px;
+}
+
+
 }
 	
 	
@@ -103,6 +155,12 @@
 
 	}
 	
+	.socialcenter{
+		padding-right: 110px;
+	}
+
+	
+
 
 	.navbar-default .navbar-toggle, .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
 		background: #fff;
@@ -180,6 +238,9 @@
 		padding-left: 30px;
 
 	}
+
+	
+
 
 	.navbar-top.affix .navbar-brand {
 		padding: 19px 15px; 
@@ -631,6 +692,51 @@
 
 	}
 
+	/*padding iconos redes centrar presidente*/
+	.socialpresidente{
+		padding-right: 460px;
+	}
+
+	.socialcenter{
+		padding-right: 110px;
+	}
+
+	/*margen y color para boton galeria imagenes */
+	.paddingboton{
+		margin-left: 160px;
+		margin-bottom: 50px;
+		background-color: #00D2A8;
+		color:white;
+	}
+
+	/*margen y color para boton galeria imagenes */
+	.paddingboton:hover{
+		margin-left: 160px;
+		margin-bottom: 50px;
+		color:white;
+	}
+
+	/*padding botón editar*/
+	.paddingeditboton{
+		margin-left: 10px;
+		margin-bottom: 50px;
+		background-color: #00D2A8;
+		color:white;
+	}
+
+	/*padding botón editar*/
+	.paddingeditboton:hover{
+		margin-left: 10px;
+		margin-bottom: 50px;
+		color:white;
+	}
+
+	/*tamaño logohome*/
+	.logohome{
+		width: 300px;
+		margin-left: 170px;
+	}
+
 }
 @media (max-width : 1024px) {
 	.support-main .su-content-wrap{
@@ -784,16 +890,87 @@
 
 	}
 
+	/*tamaño panel noticias rss*/
+	.tamañopanelrss{
+		width: 300px;
+		height: 300px;
+		margin-top: 90px;
+	}
+/*panel izquierda*/
+.paddingizquierda{
+		padding-left: 15px;
+	}
 
+	.facebookiframe{
+		width: 350px;
+	}
+
+	.twitter{
+		width: 350px;
+	}
+
+	.anchoicono{
+		width:10px;
+	}
 	
+	.socialcenter{
+		padding-left: 110px;
+	}
+
+	.tituloseccionorganigrama{
+		font-family: 'Open Sans', sans-serif;
+		font-size: 20px;
+		color:#262626; /*negro principal*/
+		padding-left: 70px;
+	}
 
 
+	/*margen y color para boton galeria imagenes */
+	.paddingboton{
+		margin-left: 60px;
+		margin-bottom: 10px;
+		background-color: #00D2A8;
+		color:white;
+	}
 
+	/*margen y color para boton galeria imagenes */
+	.paddingboton:hover{
+		margin-left: 60px;
+		margin-bottom: 50px;
+		color:white;
+	}
 
+	/*padding botón editar*/
+	.paddingeditboton{
+		margin-left: 60px;
+		
+		background-color: #00D2A8;
+		color:white;
+	}
 
+	/*padding botón editar*/
+	.paddingeditboton:hover{
+		margin-left: 60px;
+		
+		color:white;
 
+	}
 
+	.categoriaresponsive{
+		margin-left: 50px;
+		width: 250px;
+	}
 
+	.tagsresponsive{
+		margin-left: 50px;
+		width: 250px;
+	}
+
+	/*tamaño logohome*/
+	.logohome{
+		width: 270px;
+		
+	}
 
 }
 /* SlickMenu responsive */

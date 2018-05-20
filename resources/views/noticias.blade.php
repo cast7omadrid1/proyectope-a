@@ -10,7 +10,7 @@
             <h4 class="classic-title tituloseccion" onmouseover="javascript:this.style.color='#00D2A8';" onmouseout="javascript:this.style.color='#262626';"><span>Noticias RSS</span></h4>
         </div>
         
-        <h4 class="classic-title tituloseccion tituloredes" onmouseover="javascript:this.style.color='#00D2A8';" onmouseout="javascript:this.style.color='#262626';"><span>Nuestras redes sociales</span></h4>
+        
 
 		<div class="col-md-8">
 		<!--Paneles para mostrar RSS liga santander y liga123  -->
@@ -26,7 +26,7 @@
 		        	</div>
 				</div>
   			</div>
-  			<div class="col-md-4 paddingizquierda">
+  			<div class="col-md-4 paddingizquierda ">
   				<div class="panel panel-primary sombra tamañopanelrss">
 		            <div class="panel-heading leftname">
 		                <a class="panel-title" href="http://www.marca.com/futbol/segunda-division.html?intcmp=MENUMIGA&s_kw=laliga-123">LaLiga 123 RSS MARCA</a>
@@ -88,14 +88,19 @@
   			
 		</div>
  		
-			
+			<h4 class="classic-title tituloseccion tituloredes" onmouseover="javascript:this.style.color='#00D2A8';" onmouseout="javascript:this.style.color='#262626';"><span>Nuestras redes sociales</span></h4>
+
+
  			<!--redes sociales-->
   			<div class="col-xs-6 col-md-4">
             
-              <!--Tiene que tener un ancho de 400px-->
-              <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Flacasablancadezaragoza%2F%3Fref%3Dbookmarks&tabs=timeline&width=400px&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId=1389376781390269" width="400px" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+              <!--Tiene que tener un ancho de 400px 500 alto-->
+              <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Flacasablancadezaragoza%2F%3Fref%3Dbookmarks&tabs=timeline&width=400px&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId=1389376781390269" width="400px" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" class="facebookiframe"></iframe>
               
-              <a class="twitter-timeline" data-lang="es" data-height="800" data-theme="light"  href="https://twitter.com/pmadridzaragoza?ref_src=twsrc%5Etfw">Tweets by pmadridzaragoza</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+              <a class="twitter-timeline twitter" data-lang="es" data-width="400" data-height="700" data-theme="light" href="https://twitter.com/SocceraddictsES?ref_src=twsrc%5Etfw">Tweets by SocceraddictsES</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+             
+	
             </div>
 		</div>
 @endsection

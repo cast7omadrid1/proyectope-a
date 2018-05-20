@@ -17,7 +17,7 @@
                         <div class="row ">
                           
                           @foreach($articles as $article)
-                          <div class="col-md-6 leftimage zoomIt">
+                          <div class="col-md-6 leftimage zoomIt tamañoresponsive">
                             <div class="thumbnail sombra">
                               <div class="panel-body ">
                               @foreach($article->image as $image)
