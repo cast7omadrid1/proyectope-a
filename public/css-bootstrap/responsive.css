@@ -39,16 +39,16 @@
 	padding-top: 30px;
 	padding-bottom: 30px;
 	
-}
+	}
 
 
-/*Estilo para titulo redes sociales*/
-.tituloredes{
-	
-	padding-bottom: 30px;
-	padding-left: 30px;
+	/*Estilo para titulo redes sociales*/
+	.tituloredes{
+		
+		padding-bottom: 30px;
+		padding-left: 30px;
 
-}
+	}
 }
 	
 	
@@ -58,6 +58,51 @@
 	.sizeimage{
 		width: 750px;
 	}
+
+
+	/*tamaño panel noticias rss*/
+	.tamañopanelrss{
+		width: 460px;
+		height: 250px;
+	}
+
+	.tamañopanelcalendario{
+		width: 340px;
+		height: 250px;
+	}
+
+	.paddingizquierda{
+		padding-left: 150px;
+	}
+
+	/*estilo para la fila*/
+	.row{
+	
+		padding-left: 60px;
+		padding-right: 60px;
+	}
+
+
+	.tituloseccion{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	color:#262626; /*negro principal*/
+	padding-left: 150px;
+	/*text-decoration: underline;*/
+	padding-top: 30px;
+	padding-bottom: 30px;
+	
+	}
+
+
+	/*Estilo para titulo redes sociales*/
+	.tituloredes{
+		
+		padding-bottom: 30px;
+		padding-left: 30px;
+
+	}
+	
 
 	.navbar-default .navbar-toggle, .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
 		background: #fff;
@@ -113,6 +158,27 @@
 	
 		padding-left: 60px;
 		padding-right: 60px;
+	}
+
+
+	.tituloseccion{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	color:#262626; /*negro principal*/
+	padding-left: 150px;
+	/*text-decoration: underline;*/
+	padding-top: 30px;
+	padding-bottom: 30px;
+	
+	}
+
+
+	/*Estilo para titulo redes sociales*/
+	.tituloredes{
+		
+		padding-bottom: 30px;
+		padding-left: 30px;
+
 	}
 
 	.navbar-top.affix .navbar-brand {
@@ -527,9 +593,42 @@
 		font-size: 16px;
 	}
 
+	/*estilo para la fila*/
+	.row{
+	
+		padding-left: 65px;
+		padding-right: 60px;
+	}
+
+/*tamaño imagenes en galeria*/
+	.sizeimage{
+		width: 750px;
+	}
+	
 	/*tamaño galeria imagenes responsive*/
 	.tamañoresponsive{
-		width: 500px;
+		width: 350px;
+		
+	}
+
+	.tituloseccion{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	color:#262626; /*negro principal*/
+	padding-left: 150px;
+	/*text-decoration: underline;*/
+	padding-top: 30px;
+	padding-bottom: 30px;
+	
+	}
+
+
+	/*Estilo para titulo redes sociales*/
+	.tituloredes{
+		
+		padding-bottom: 30px;
+		padding-left: 30px;
+
 	}
 
 }
@@ -553,7 +652,13 @@
 	/*tamaño galeria imagenes responsive*/
 	.tamañoresponsive{
 		width: 500px;
+		padding-top: 150px;
 	}
+
+	.tamañopanelcalendario{
+  		width: 350px;
+  		height: 250px;
+  	}
 }
 
 @media (max-width : 767px) {
@@ -591,15 +696,36 @@
 		display: none;
 	}
     /*separación botón inicio*/
-    .paddingresponsive{
+	.paddingresponsive{
 		margin-bottom: 5px;
 	}
-
 	/*tamaño galeria imagenes responsive*/
 	.tamañoresponsive{
-		width: 250px;
+		width: 300px;
+		padding-top: 100px;
 	}
 
+	.tamañopanelcalendario{
+  		width: 350px;
+  		height: 250px;
+  	}
+
+ 	.tituloseccion{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	color:#262626; /*negro principal*/
+	padding-left: 40px;
+	
+	
+	}
+
+	/*Estilo para titulo redes sociales*/
+	.tituloredes{
+		
+		padding-bottom: 30px;
+		padding-left: 30px;
+
+	}
 	
 }
 
@@ -633,6 +759,7 @@
 	/*tamaño galeria imagenes responsive*/
 	.tamañoresponsive{
 		width: 300px;
+		padding-top: 100px;
 	}
 
 	.tamañopanelcalendario{
@@ -640,7 +767,32 @@
   		height: 250px;
   	}
 
- 
+ 	.tituloseccion{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	color:#262626; /*negro principal*/
+	padding-left: 40px;
+	
+	
+	}
+
+	/*Estilo para titulo redes sociales*/
+	.tituloredes{
+		
+		padding-bottom: 30px;
+		padding-left: 30px;
+
+	}
+
+
+	
+
+
+
+
+
+
+
 
 
 }
@@ -651,10 +803,7 @@
     display: none;
   }
 
-	/*tamaño galeria imagenes responsive*/
-	.tamañoresponsive{
-		width: 500px;
-	}
+	
   
 
 }

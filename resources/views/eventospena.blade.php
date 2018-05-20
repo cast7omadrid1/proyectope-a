@@ -25,16 +25,12 @@
 
 
 				<div class=" row ">
-        <!--<div class="col-xs-12 col-sm-6 col-md-8">
-          <h2 class="tituloseccion" onmouseover="javascript:this.style.color='#19F0DB';" onmouseout="javascript:this.style.color='#00D2A8';">Nuestros eventos ¡Visitanos!</h2>
-        </div>-->
+       
 
          <div class="col-xs-12 col-sm-6 col-md-8">
             <h4 class="classic-title tituloseccion" onmouseover="javascript:this.style.color='#00D2A8';" onmouseout="javascript:this.style.color='#262626';"><span>Nuestros eventos ¡Visitanos!</span></h4>
         </div>
         
-        <h4 class="classic-title tituloseccion tituloredes" onmouseover="javascript:this.style.color='#00D2A8';" onmouseout="javascript:this.style.color='#262626';"><span>Calendario</span></h4>
-        <!--<h2 class="tituloseccion tituloredes" onmouseover="javascript:this.style.color='#19F0DB';" onmouseout="javascript:this.style.color='#00D2A8';">Nuestras redes sociales</h2>-->  
 
                     <div class="col-md-8">
                         
@@ -114,15 +110,9 @@
                    
                     </div>
 
-                  
-					<!--redes sociales
-					  <div class="col-xs-6 col-md-4">-->
-					  
-              <!--Tiene que tener un ancho de 400px
-					  	<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Flacasablancadezaragoza%2F%3Fref%3Dbookmarks&tabs=timeline&width=400px&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId=1389376781390269" width="400px" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-              
-					  	<a class="twitter-timeline" data-lang="es" data-height="800" data-theme="light"  href="https://twitter.com/pmadridzaragoza?ref_src=twsrc%5Etfw">Tweets by pmadridzaragoza</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-					  </div>-->
+         
+
+					<h4 class="classic-title tituloseccion tituloredes" onmouseover="javascript:this.style.color='#00D2A8';" onmouseout="javascript:this.style.color='#262626';"><span>Calendario</span></h4>
 					
           <div class="col-md-4">
           <div class="panel panel-primary sombra tamañopanelcalendario">
@@ -158,7 +148,7 @@
             <h4 class="classic-title tituloseccion" onmouseover="javascript:this.style.color='#00D2A8';" onmouseout="javascript:this.style.color='#262626';"><span>Nuestros eventos ¡Visitanos!</span></h4>
         </div>
         
-        <h4 class="classic-title tituloseccion tituloredes" onmouseover="javascript:this.style.color='#00D2A8';" onmouseout="javascript:this.style.color='#262626';"><span>Calendario</span></h4>
+        
         <!--<h2 class="tituloseccion tituloredes" onmouseover="javascript:this.style.color='#19F0DB';" onmouseout="javascript:this.style.color='#00D2A8';">Nuestras redes sociales</h2>--> 
                      
                     <div class="col-md-8">
@@ -166,7 +156,7 @@
                         <div class="row">
                           
                           @foreach($articles as $article)
-                          <div class="col-md-6 leftimage zoomIt ">
+                          <div class="col-md-6 leftimage zoomIt tamañoresponsive">
                             <div class="thumbnail sombra">
                               <div class="panel-body ">
                               @foreach($article->image as $image)
@@ -218,14 +208,9 @@
                     </div>
 
 
-          <!--redes sociales
-            <div class="col-xs-6 col-md-4">-->
-            
-              <!--Tiene que tener un ancho de 400px
-              <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Flacasablancadezaragoza%2F%3Fref%3Dbookmarks&tabs=timeline&width=400px&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId=1389376781390269" width="400px" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-              
-              <a class="twitter-timeline" data-lang="es" data-height="800" data-theme="light"  href="https://twitter.com/pmadridzaragoza?ref_src=twsrc%5Etfw">Tweets by pmadridzaragoza</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-            </div>-->
+          
+          
+          <h4 class="classic-title tituloseccion tituloredes" onmouseover="javascript:this.style.color='#00D2A8';" onmouseout="javascript:this.style.color='#262626';"><span>Calendario</span></h4>
           
           <div class="col-md-4">
           <div class="panel panel-primary sombra tamañopanelcalendario">
@@ -233,7 +218,7 @@
                     <a class="panel-title" href="http://www.marca.com/futbol/segunda-division.html?intcmp=MENUMIGA&s_kw=laliga-123">Calendario</a>
                 </div>
               <div class="panel-body">
-                    <iframe src="https://calendar.google.com/calendar/embed?showPrint=0&amp;showTabs=0&amp;mode=AGENDA&amp;height=210&amp;wkst=2&amp;bgcolor=%23cccccc&amp;src=gkqrhkeecvrssaib9v9araqee8%40group.calendar.google.com&amp;color=%23B1440E&amp;ctz=Europe%2FMadrid" style="border-width:0" width="310" height="210" frameborder="0" scrolling="no"></iframe>
+                    <iframe src="https://calendar.google.com/calendar/embed?showPrint=0&amp;showTabs=0&amp;mode=AGENDA&amp;height=210&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=gkqrhkeecvrssaib9v9araqee8%40group.calendar.google.com&amp;color=%23B1440E&amp;ctz=Europe%2FMadrid" style="border-width:0" width="310" height="210" frameborder="0" scrolling="no"></iframe>
               </div>
         </div>
         </div>
