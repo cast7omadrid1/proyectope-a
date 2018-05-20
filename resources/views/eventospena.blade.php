@@ -24,7 +24,7 @@
   </script>
 
 
-				<div class="row">
+				<div class=" row ">
         <!--<div class="col-xs-12 col-sm-6 col-md-8">
           <h2 class="tituloseccion" onmouseover="javascript:this.style.color='#19F0DB';" onmouseout="javascript:this.style.color='#00D2A8';">Nuestros eventos ¡Visitanos!</h2>
         </div>-->
@@ -41,7 +41,7 @@
                         <div class="row">
                           
                           @foreach($articles as $article)
-                          <div class="col-md-6 leftimage zoomIt">
+                          <div class="col-md-6 leftimage zoomIt tamañoresponsive">
                             <div class="thumbnail sombra">
                               <div class="panel-body ">
                               @foreach($article->image as $image)

@@ -68,28 +68,26 @@
   <!-- Full Body Container-->
   <div id="container">
 
-    <!-- Start Header Section-->
+    
+
+  <!-- Start Header Section -->
     <header class="clearfix">
-      <!-- Start  Logo & Naviagtion-->
+      <!-- Start  Logo & Naviagtion  -->
       <div class="navbar navbar-default navbar-top" role="navigation" data-spy="affix" data-offset-top="50">
         <div class="container">
           <div class="navbar-header">
-            <!-- Stat Toggle Nav Link For Mobiles-->
+            <!-- Stat Toggle Nav Link For Mobiles -->
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
               <i class="fa fa-bars"></i>
             </button>
-            <!-- End Toggle Nav Link For Mobiles-->
-            <a class="navbar-brand" href="{{ url('/inicio') }}">
-              
-              <img class="logo" alt="" src="{{ URL::asset('images/logo.PNG') }}">
-              
+            <!-- End Toggle Nav Link For Mobiles -->
+            <a class="navbar-brand" href="index.html">
+              <img alt="" src="images/margo.png">
             </a>
           </div>
-          <div class="navbar-collapse collapse"></div>
-           
-           
-
-            <!-- Menu de navegación web -->
+          <div class="navbar-collapse collapse">
+            <!-- End Search -->
+            <!-- Start Navigation List -->
             <ul class="nav navbar-nav navbar-right">
               <li>
                 <a href="{{ url('/inicio') }}">Inicio</a>
@@ -109,15 +107,12 @@
               <li><a href="{{ url('/contacto') }}">Contacto</a>
               </li>
               <li>
-                <div class="collapse navbar-collapse" id="app-navbar-collapse">
-                    <!-- Left Side Of Navbar-->
-                    <ul class="nav navbar-nav">
-                        &nbsp;
-                    </ul>
+              <div class="collapse navbar-collapse" id="app-navbar-collapse">
+                    
 
                     <!-- Right Side Of Navbar-->
                     <ul class="nav navbar-nav navbar-right">
-                        <!-- Authentication Links--> 
+                        <!-- Authentication Links-->
                         @if (Auth::guest())
                             <li><a href="{{ route('login') }}"><span class="fa fa-sign-in"></span>Login</a></li>
                             <li><a href="{{ route('register') }}"><span class="fa fa-pencil-square-o"></span>Registrarse</a></li>
@@ -133,15 +128,16 @@
 
                                 <ul class="dropdown-menu" role="menu">
                                     <li>
-
+ 
                                         <a href="{{route('home') }}">
                                             Home
                                         </a>
-                                         @if (Auth::user()->user == 1 )
+                                        @if (Auth::user()->user == 1 )
                                          <a href="{{url('/listausuarios')}}">
                                             Panel admin
                                           </a>
                                         @endif
+                                  
                                         <!--Nos envia al perfil del usuario-->
                                         <a href="{{route('user.profile') }}">
                                             Perfil usuario
@@ -163,11 +159,12 @@
                     </ul>
                 </div>
               </li>
-             </ul>
+            </ul>
+            <!-- End Navigation List -->
           </div>
         </div>
 
-        <!-- Menu para moviles-->
+        <!-- Mobile Menu Start -->
         <ul class="wpb-mobile-menu">
           <li>
                 <a href="{{ url('/inicio') }}">Inicio</a>
@@ -186,17 +183,65 @@
               </li>
               <li><a href="{{ url('/contacto') }}">Contacto</a>
               </li>
+          <li>
+              
+                  
+                        <!-- Authentication Links-->
+                        @if (Auth::guest())
+                            <li><a href="{{ route('login') }}"><span class="fa fa-sign-in"></span>Login</a></li>
+                            <li><a href="{{ route('register') }}"><span class="fa fa-pencil-square-o"></span>Registrarse</a></li>
+                        @else
+                            <li class="navbar-static-top">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                                   
+                                   <!--Imagen de avatar, si no esta cambiado, muestra imagen por defecto-->
+                                   <img width="20px" height="20px" class="img-circle " src="{{ asset('uploads/avatars/'.Auth::user()->avatar) }}">
+                                    {{ Auth::user()->name }} <span class="caret"></span>
+
+                                </a>
+
+                                <ul class="dropdown-menu" role="menu">
+                                    <li>
+ 
+                                        <a href="{{route('home') }}">
+                                            Home
+                                        </a>
+                                        @if (Auth::user()->user == 1 )
+                                         <a href="{{url('/listausuarios')}}">
+                                            Panel admin
+                                          </a>
+                                        @endif
+                                  
+                                        <!--Nos envia al perfil del usuario-->
+                                        <a href="{{route('user.profile') }}">
+                                            Perfil usuario
+                                        </a>
+                                        <a href="{{ route('logout') }}"
+                                            onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                            Salir
+                                        </a>
+
+                                        <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                            {{ csrf_field() }}
+                                            
+                                        </form>
+                                    </li>
+                                </ul>
+                            </li>
+                        @endif
+                    
+                
+              </li>
         </ul>
-        <!-- Fin menu para moviles-->
+        <!-- Mobile Menu End -->
 
       </div>
-      <!-- End Header Logo & Naviagtion-->
+      <!-- End Header Logo & Naviagtion -->
 
     </header>
-    <!-- End Header Section-->
-  </div>
-
-
+    <!-- End Header Section -->
+   
 
   <div>
 
@@ -249,7 +294,7 @@
                 </li>
                 <li>
                   <!--Botón propio de twitter para twitter a través de la página web-->
-                  <a href="https://twitter.com/intent/tweet?screen_name=pmadridzaragoza&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-related="" data-lang="es" data-show-count="false">Tweet de @pmadridzaragoza</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                  <a href="https://twitter.com/intent/tweet?screen_name=pmadridzaragoza&ref_src=twsrc%5Etfw" class="twitter-mention-button " data-related="" data-lang="es" data-show-count="false">Tweet de @pmadridzaragoza</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                 </li>
                 <li>
                   <!--<a class="instgram" href="#"><i class="fa fa-instagram"></i></a>-->
@@ -265,8 +310,6 @@
           
           <!-- .col-md-3 -->
           <!-- End Twitter Widget -->
-
-          
 
 
         </div>
@@ -347,6 +390,7 @@
   <!--Script para Slimbox2 aumentar la imagen-->
   <script type="text/javascript" src="{{ URL::asset('slimbox/js/slimbox2.js') }}"></script>
 
+  <script type="text/javascript" src="js/script.js"></script>
 
  <!--Script para la eliminacion de los mensajes de alerta en 3 segundos-->
   <script>

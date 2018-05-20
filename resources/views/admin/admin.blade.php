@@ -21,63 +21,40 @@
   <meta name="description" content="Margo - Responsive HTML5 Template">
   <meta name="author" content="GrayGrids">
 
-  <!-- Bootstrap CSS  
-  <link rel="stylesheet" href="asset/css/bootstrap.min.css" type="text/css" media="screen">-->
-
   <link  rel = "stylesheet"  href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
 
-  <!-- Revolution Slider -->
-  <link rel="stylesheet" href="css-bootstrap/settings.css" type="text/css" media="screen">
+  <!-- Revolution Slider-->
+   <link rel="stylesheet" href="{{ URL::asset('css-bootstrap/settings.css') }}" type="text/css" media="screen">
 
-  <!-- Font Awesome CSS -->
-  <!--<link rel="stylesheet" href="css-bootstrap/font-awesome.min.css" type="text/css" media="screen">-->
 
-  <!-- Slicknav -->
-  <link rel="stylesheet" type="text/css" href="css-bootstrap/slicknav.css" media="screen">
+  <link rel="stylesheet" type="text/css" href="{{ URL::asset('css-bootstrap/slicknav.css') }}" media="screen">
 
-  <!-- Margo CSS Styles  -->
-  <link rel="stylesheet" type="text/css" href="css-bootstrap/style.css" media="screen">
-
-  <!-- Responsive CSS Styles  -->
-  <link rel="stylesheet" type="text/css" href="css-bootstrap/responsive.css" media="screen">
-
-  <!-- Css3 Transitions Styles  -->
-  <link rel="stylesheet" type="text/css" href="css-bootstrap/animate.css" media="screen">
-
-  <!-- Color Defult -->
-  <link rel="stylesheet" type="text/css" href="css-bootstrap/colors/blue.css" media="screen" />
-  
   <!--Fuentes-->
- <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css" media="screen">
+ <link rel="stylesheet" href="{{ URL::asset('font-awesome/css/font-awesome.min.css') }}" type="text/css" media="screen">
 
-  <!-- estilos propios  -->
-  <link rel="stylesheet" type="text/css" href="css/estilospropios.css" media="screen">
+ <!-- Margo CSS Styles  -->
+ <link rel="stylesheet" type="text/css" href="{{ URL::asset('css-bootstrap/style.css') }}" media="screen">
 
-  <!-- Margo JS  -->
+
+<!-- Responsive CSS Styles  -->
+<link rel="stylesheet" type="text/css" href="{{ URL::asset('css-bootstrap/responsive.css') }}" media="screen">
+
+
+<!-- Css3 Transitions Styles  -->
+<link rel="stylesheet" type="text/css" href="{{ URL::asset('css-bootstrap/animate.css') }}" media="screen">
+
+<!-- Color Defult -->
+<link rel="stylesheet" type="text/css" href="{{ URL::asset('css-bootstrap/colors/blue.css') }}" media="screen" />
+
+<!-- estilos propios  -->
+<link rel="stylesheet" type="text/css" href="{{ URL::asset('css/estilospropios.css') }}" media="screen">
+
+
+<link rel="stylesheet" href="{{ URL::asset('slimbox/css/slimbox2.css') }}" type="text/css" media="screen" />
   
   
 
-  <script type="text/javascript" src="js-bootstrap/jquery-2.1.4.min.js"></script>
-
-  <script type="text/javascript" src="js-bootstrap/jquery.migrate.js"></script>
-  <script type="text/javascript" src="js-bootstrap/modernizrr.js"></script>
-  <script type="text/javascript" src="asset/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="js-bootstrap/jquery.fitvids.js"></script>
-  <script type="text/javascript" src="js-bootstrap/owl.carousel.min.js"></script>
-  <script type="text/javascript" src="js-bootstrap/nivo-lightbox.min.js"></script>
-  <script type="text/javascript" src="js-bootstrap/jquery.isotope.min.js"></script>
-  <script type="text/javascript" src="js-bootstrap/jquery.appear.js"></script>
-  <script type="text/javascript" src="js-bootstrap/count-to.js"></script>
-  <script type="text/javascript" src="js-bootstrap/jquery.textillate.js"></script>
-  <script type="text/javascript" src="js-bootstrap/jquery.lettering.js"></script>
-  <script type="text/javascript" src="js-bootstrap/jquery.easypiechart.min.js"></script>
-  <script type="text/javascript" src="js-bootstrap/smooth-scroll.js"></script>
-  <script type="text/javascript" src="js-bootstrap/skrollr.js"></script>
-  <script type="text/javascript" src="js-bootstrap/jquery.parallax.js"></script>
-  <script type="text/javascript" src="js-bootstrap/mediaelement-and-player.js"></script>
-  <script type="text/javascript" src="js-bootstrap/jquery.slicknav.js"></script> 
-
-  <script type="text/javascript" src="js-bootstrap/MisjQueryJS.js"></script>
+ 
 
 
  
@@ -91,50 +68,8 @@
   <!-- Full Body Container -->
   <div id="container">
 
-    <!-- Start Header Section -->
+     <!-- Start Header Section -->
     <header class="clearfix">
-      <!-- Start Top Bar -->
-      <div class="top-bar">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-7">
-              <!-- Start Contact Info 
-              <ul class="contact-details">
-                <li><a href="#"><i class="fa fa-map-marker"></i> Calle Basilio Boggiero, Zaragoza, España</a>
-                </li>
-                <li><a href="#"><i class="fa fa-envelope-o"></i> socceraddicts@gmail.com</a>
-                </li>
-                <li><a href="#"><i class="fa fa-phone"></i> +34 976 618 450</a>
-                </li>
-              </ul>
-              <!-- End Contact Info 
-            </div>
-            <!-- .col-md-6 -->
-            <div class="col-md-5">
-               <!-- Start Social Links 
-              <ul class="social-list">
-                <li>
-                  <a class="facebook itl-tooltip" data-placement="bottom" title="Facebook" href="#"><i class="fa fa-facebook"></i></a>
-                </li>
-                <li>
-                  <a class="twitter itl-tooltip" data-placement="bottom" title="Twitter" href="#"><i class="fa fa-twitter"></i></a>
-                </li>
-                 <li>
-                  <a class="instgram itl-tooltip" data-placement="bottom" title="Instagram" href="#"><i class="fa fa-instagram"></i></a>
-                </li>
-              </ul>
-              <!-- End Social Links -->
-            </div>
-            <!-- .col-md-6 -->
-          </div>
-          <!-- .row -->
-        </div>
-        <!-- .container -->
-      </div>
-      <!-- .top-bar -->
-      <!-- End Top Bar -->
-
-
       <!-- Start  Logo & Naviagtion  -->
       <div class="navbar navbar-default navbar-top" role="navigation" data-spy="affix" data-offset-top="50">
         <div class="container">
@@ -144,28 +79,14 @@
               <i class="fa fa-bars"></i>
             </button>
             <!-- End Toggle Nav Link For Mobiles -->
-            <a class="navbar-brand" href="{{ url('/inicio') }}">
-              <img alt="" src="images/captura3.PNG">
+            <a class="navbar-brand" href="index.html">
+              <img alt="" src="images/margo.png">
             </a>
           </div>
-          <div class="navbar-collapse collapse"></div>
-            <!-- Stat Search -->
-            <!--<div class="search-side">
-              <a class="show-search"><i class="fa fa-search"></i></a>
-              <div class="search-form">
-                <form autocomplete="off" role="search" method="get" class="searchform" action="#">
-                  <input type="text" value="" name="s" id="s" placeholder="Buscar...">
-                </form>
-              </div>
-            </div>-->
+          <div class="navbar-collapse collapse">
             <!-- End Search -->
-           
-
-            <!-- Menu de navegación web -->
+            <!-- Start Navigation List -->
             <ul class="nav navbar-nav navbar-right">
-              <!--<li>
-                <a  href="{{ url('/inicioadmin') }}">Inicio</a>
-              </li>-->
               <li>
                 <a href="{{ url('/listausuarios') }}">Usuarios</a>
               </li>
@@ -185,18 +106,15 @@
                 <a href="{{url('/listatags')}}">Tags</a>
               </li>
               <li>
-              	<a href="{{url('/listacomentarios')}}">Comentarios</a>
+                <a href="{{url('/listacomentarios')}}">Comentarios</a>
               </li>
               <li>
-                <div class="collapse navbar-collapse" id="app-navbar-collapse">
-                    <!-- Left Side Of Navbar -->
-                    <ul class="nav navbar-nav">
-                        &nbsp;
-                    </ul>
+              <div class="collapse navbar-collapse" id="app-navbar-collapse">
+                    
 
-                    <!-- Right Side Of Navbar -->
+                    <!-- Right Side Of Navbar-->
                     <ul class="nav navbar-nav navbar-right">
-                        <!-- Authentication Links -->
+                        <!-- Authentication Links-->
                         @if (Auth::guest())
                             <li><a href="{{ route('login') }}"><span class="fa fa-sign-in"></span>Login</a></li>
                             <li><a href="{{ route('register') }}"><span class="fa fa-pencil-square-o"></span>Registrarse</a></li>
@@ -217,8 +135,7 @@
                                             Home
                                         </a>
 
-                                        
-                                               
+                                  
                                         <!--Nos envia al perfil del usuario-->
                                         <a href="{{route('user.profile') }}">
                                             Perfil usuario
@@ -239,41 +156,96 @@
                         @endif
                     </ul>
                 </div>
-              <li>
-             </ul>
+              </li>
+            </ul>
+            <!-- End Navigation List -->
           </div>
         </div>
 
-        <!-- Menu para moviles -->
+        <!-- Mobile Menu Start -->
         <ul class="wpb-mobile-menu">
-          	  <li>
-                <a  href="{{ url('/admin') }}">Inicio</a>
-              </li>
-              <li>
-                <a href="{{ url('/listausuarios') }}">Usuarios</a>
-              </li>
-              <li>
-                <a href="#">Vacio</a>
-              </li>
-              <li>
-                <a href="#">Vacio</a>
-              </li>
-              <li>
-                <a href="#">Vacio</a>
-              </li>
-              <li>
-              	<a href="#">Vacio</a>
+          <li>
+              <a href="{{ url('/listausuarios') }}">Usuarios</a>
+          </li>
+          <li>
+            <a href="{{ url('/listapagos') }}">Pagos</a>
+          </li>
+          <li>
+            <a href="{{url('/listacompras')}}">Compras</a>
+          </li>
+          <li>
+            <a href="{{url('/listaarticulos')}}">Imágenes</a>
+          </li>
+          <li>
+            <a href="{{url('/listacategorias')}}">Categorias</a>
+          </li>
+          <li>
+            <a href="{{url('/listatags')}}">Tags</a>
+          </li>
+          <li>
+            <a href="{{url('/listacomentarios')}}">Comentarios</a>
+          </li>
+          <li>
+              
+                    
+
+                   
+                        <!-- Authentication Links-->
+                        @if (Auth::guest())
+                            <li><a href="{{ route('login') }}"><span class="fa fa-sign-in"></span>Login</a></li>
+                            <li><a href="{{ route('register') }}"><span class="fa fa-pencil-square-o"></span>Registrarse</a></li>
+                        @else
+                            <li class="navbar-static-top">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                                   
+                                   <!--Imagen de avatar, si no esta cambiado, muestra imagen por defecto-->
+                                   <img width="20px" height="20px" class="img-circle " src="{{ asset('uploads/avatars/'.Auth::user()->avatar) }}">
+                                    {{ Auth::user()->name }} <span class="caret"></span>
+
+                                </a>
+
+                                <ul class="dropdown-menu" role="menu">
+                                    <li>
+ 
+                                        <a href="{{route('home') }}">
+                                            Home
+                                        </a>
+
+                                  
+                                        <!--Nos envia al perfil del usuario-->
+                                        <a href="{{route('user.profile') }}">
+                                            Perfil usuario
+                                        </a>
+                                        <a href="{{ route('logout') }}"
+                                            onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                            Salir
+                                        </a>
+
+                                        <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                            {{ csrf_field() }}
+                                            
+                                        </form>
+                                    </li>
+                                </ul>
+                            </li>
+                        @endif
+                    
+                
               </li>
         </ul>
-        <!-- Fin menu para moviles -->
+        <!-- Mobile Menu End -->
 
       </div>
       <!-- End Header Logo & Naviagtion -->
 
     </header>
     <!-- End Header Section -->
-
    
+
+
+
+
   <!--<h1>Bienvenid@ {{Auth::user()->name}} a su Panel de Administrador</h1>-->
   
   <div>
@@ -389,7 +361,44 @@
     </div>
   </div>-->
 
+ <script src="{{ URL::asset('http://ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js') }}"></script>
+  
+  
 
+  <script type="text/javascript" src="{{ URL::asset('js-bootstrap/jquery-2.1.4.min.js') }}"></script>
+  <script type="text/javascript" src="{{ URL::asset('js-bootstrap/jquery.fitvids.js') }}"></script>
+  <script type="text/javascript" src="{{ URL::asset('js-bootstrap/jquery.isotope.min.js') }}"></script>
+  <script type="text/javascript" src="{{ URL::asset('js-bootstrap/jquery.appear.js') }}"></script>
+  <script type="text/javascript" src="{{ URL::asset('js-bootstrap/jquery.textillate.js') }}"></script>
+  <script type="text/javascript" src="{{ URL::asset('js-bootstrap/jquery.lettering.js') }}"></script>
+  <script type="text/javascript" src="{{ URL::asset('js-bootstrap/jquery.easypiechart.min.js') }}"></script>
+  <script type="text/javascript" src="{{ URL::asset('js-bootstrap/jquery.slicknav.js') }}"></script> 
+  <!--MisJquery-->
+  <script type="text/javascript" src="{{ URL::asset('js-bootstrap/MisjQueryJS.js') }}
+"></script>
+
+  <script type="text/javascript" src="{{ URL::asset('js-bootstrap/jquery.migrate.js') }}"></script>
+  <script type="text/javascript" src="{{ URL::asset('js-bootstrap/modernizrr.js') }}"></script>
+  <script type="text/javascript" src="{{ URL::asset('asset/js/bootstrap.min.js') }}"></script>
+  <script type="text/javascript" src="{{ URL::asset('js-bootstrap/owl.carousel.min.js') }}"></script>
+  <script type="text/javascript" src="{{ URL::asset('js-bootstrap/nivo-lightbox.min.js') }}"></script>
+  <script type="text/javascript" src="{{ URL::asset('js-bootstrap/count-to.js') }}"></script>
+  <script type="text/javascript" src="{{ URL::asset('js-bootstrap/smooth-scroll.js') }}"></script>
+  <script type="text/javascript" src="{{ URL::asset('js-bootstrap/skrollr.js') }}"></script>
+  <script type="text/javascript" src="{{ URL::asset('js-bootstrap/jquery.parallax.js') }}"></script>
+  <script type="text/javascript" src="{{ URL::asset('js-bootstrap/mediaelement-and-player.js') }}"></script>
+
+
+  
+  <script type="text/javascript" src="{{ URL::asset('bootstrap-design/js/bootstrap.js') }}"></script>
+  <script type="text/javascript" src="{{ URL::asset('bootstrap-design/js/bootstrap.min.js') }}"></script>
+  <script type="text/javascript" src="{{ URL::asset('bootstrap-design/js/jquery-3.2.1.js') }}"></script>
+  <script type="text/javascript" src="{{ URL::asset('bootstrap-design/js/mdb.js') }}"></script>
+  <script type="text/javascript" src="{{ URL::asset('bootstrap-design/js/mdb.min.js') }}"></script>
+  <script type="text/javascript" src="{{ URL::asset('bootstrap-design/js/popper.min.js') }}"></script>
+
+  <!--Script para Slimbox2 aumentar la imagen-->
+  <script type="text/javascript" src="{{ URL::asset('slimbox/js/slimbox2.js') }}"></script>
   <script type="text/javascript" src="js/script.js"></script>
   <!--Script para la eliminacion de los mensajes de alerta en 3 segundos-->
   <script>

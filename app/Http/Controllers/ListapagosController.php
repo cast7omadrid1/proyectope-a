@@ -19,7 +19,7 @@ class ListapagosController extends Controller
     public function index(Request $request)
     {
         
-        $pagos=Pago::Search($request->pagos)->orderBy('id','DESC')->paginate(5);
+        $pagos=Pago::Search($request->pagos)->orderBy('id','DESC')->paginate(6);
 
         
         $pagos->each(function($pagos){ 

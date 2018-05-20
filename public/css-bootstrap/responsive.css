@@ -21,6 +21,34 @@
 	.paddingizquierda{
 		padding-left: 150px;
 	}
+
+	/*estilo para la fila*/
+	.row{
+	
+		padding-left: 60px;
+		padding-right: 60px;
+	}
+
+
+	.tituloseccion{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	color:#262626; /*negro principal*/
+	padding-left: 150px;
+	/*text-decoration: underline;*/
+	padding-top: 30px;
+	padding-bottom: 30px;
+	
+}
+
+
+/*Estilo para titulo redes sociales*/
+.tituloredes{
+	
+	padding-bottom: 30px;
+	padding-left: 30px;
+
+}
 }
 	
 	
@@ -62,7 +90,15 @@
 	
 	.projects-carousel {
 		width: 950px!important;
-	}	
+	}
+
+
+	/*estilo para la fila*/
+	.row{
+	
+		padding-left: 60px;
+		padding-right: 60px;
+	}
 }
 
 @media (max-width: 991px) {
@@ -70,6 +106,13 @@
 	/*tamaño imagenes en galeria*/
 	.sizeimage{
 		width: 750px;
+	}
+
+	/*estilo para la fila*/
+	.row{
+	
+		padding-left: 60px;
+		padding-right: 60px;
 	}
 
 	.navbar-top.affix .navbar-brand {
@@ -225,6 +268,14 @@
 	.sizeimage{
 		width: 750px;
 	}
+
+	/*estilo para la fila*/
+	.row{
+	
+		padding-left: 35px;
+		padding-right: 60px;
+	}
+
 	
   	.navbar-top.affix .navbar-brand {
 		padding: 19px 15px; 
@@ -277,6 +328,12 @@
   	.navbar-top.affix .navbar-brand {
 		padding: 19px 15px; 
 	}
+
+	/*tamaño galeria imagenes responsive*/
+	.tamañoresponsive{
+		width: 500px;
+	}
+
     .top-bar  {
 		text-align: center;
 	}
@@ -426,8 +483,6 @@
 }
 
 
-
-
 @media (min-width : 992px) {
     
 
@@ -472,6 +527,11 @@
 		font-size: 16px;
 	}
 
+	/*tamaño galeria imagenes responsive*/
+	.tamañoresponsive{
+		width: 500px;
+	}
+
 }
 @media (max-width : 1024px) {
 	.support-main .su-content-wrap{
@@ -484,6 +544,15 @@
 	/*tamaño imagenes en galeria*/
 	.sizeimage{
 		width: 750px;
+	}
+
+	.paddingresponsive{
+		margin-bottom: 5px;
+	}
+
+	/*tamaño galeria imagenes responsive*/
+	.tamañoresponsive{
+		width: 500px;
 	}
 }
 
@@ -507,6 +576,10 @@
 		display: none;
 	}
     
+    .paddingresponsive{
+		margin-bottom: 5px;
+	}
+
 }
 
 
@@ -517,7 +590,17 @@
     #main-slide .item .slider-content{
 		display: none;
 	}
-    
+    /*separación botón inicio*/
+    .paddingresponsive{
+		margin-bottom: 5px;
+	}
+
+	/*tamaño galeria imagenes responsive*/
+	.tamañoresponsive{
+		width: 250px;
+	}
+
+	
 }
 
 @media screen and (max-width: 767px) {
@@ -543,6 +626,23 @@
 	.js .slicknav_menu {
 		display:block;
 	}
+	/*separación botón inicio*/
+	.paddingresponsive{
+		margin-bottom: 5px;
+	}
+	/*tamaño galeria imagenes responsive*/
+	.tamañoresponsive{
+		width: 300px;
+	}
+
+	.tamañopanelcalendario{
+  		width: 350px;
+  		height: 250px;
+  	}
+
+ 
+
+
 }
 /* SlickMenu responsive */
 @media screen and (min-width: 768px) {
@@ -550,4 +650,11 @@
   .slicknav_menu{
     display: none;
   }
+
+	/*tamaño galeria imagenes responsive*/
+	.tamañoresponsive{
+		width: 500px;
+	}
+  
+
 }

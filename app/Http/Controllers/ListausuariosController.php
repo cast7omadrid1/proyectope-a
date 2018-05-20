@@ -16,7 +16,7 @@ class ListausuariosController extends Controller
 
         //dd("test");
 
-        $users=User::Search($request->name)->orderBy("id","DESC")->paginate(3);
+        $users=User::Search($request->name)->orderBy("id","DESC")->paginate(8);
         return View('admin.listausuarios')->with('users',$users);
 
     }

@@ -104,7 +104,7 @@
         <div class="col-md-7">
           <h2 class="featurette-heading">¡No te sientas solo! <span class="text-muted">¡Visitanos!</span></h2>
           <p class="lead">Disfruta de un gran ambiente rodeados de amantes de tu deporte favorito y ve cada partido como si estuvieras en el estadio.</p>
-          <hr><a href="{{ url('/contacto') }}" onmouseover="javascript:this.style.backgroundColor='#404040';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn  botonpaneladmin">Contacto</a>
+          <hr><a href="{{ url('/contacto') }}" onmouseover="javascript:this.style.backgroundColor='#404040';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn  botonpaneladmin paddingresponsive">Contacto</a>
         </div>
         <div class="col-md-5">
           <img class="featurette-image img-responsive center-block" src="images/inicio/solo.jpg" alt="Generic placeholder image">
@@ -117,16 +117,12 @@
         <div class="col-md-7 col-md-push-5">
           <h2 class="featurette-heading">¡Sube tus imágenes <span class="text-muted">a nuestra galería!</span></h2>
           <p class="lead">Sube tus fotografias en la peña a nuestra fantastica galería y disfruta del resto de fotográfias.</p>
-          <hr><a href="{{ url('/contacto') }}" onmouseover="javascript:this.style.backgroundColor='#404040';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn  botonpaneladmin">Galería de imágenes</a>
+          <hr><a href="{{ url('/contacto') }}" onmouseover="javascript:this.style.backgroundColor='#404040';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn  botonpaneladmin paddingresponsive">Galería de imágenes</a>
         </div>
         <div class="col-md-5 col-md-pull-7">
           <img class="featurette-image img-responsive center-block" src="images/inicio/movil.jpg" alt="Generic placeholder image">
         </div>
       </div>
-
-     
-
-      
 
       <hr class="featurette-divider">
 
@@ -135,7 +131,7 @@
         <div class="col-md-7">
           <h2 class="featurette-heading">Registrate <span class="text-muted">en nuestra web</span></h2>
           <p class="lead">Registrate en nuestra web y disfruta del contenido exclusivo. </p>
-          <hr><a href="{{ route('register') }}" onmouseover="javascript:this.style.backgroundColor='#404040';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn  botonpaneladmin">Registrate</a>
+          <hr><a href="{{ route('register') }}" onmouseover="javascript:this.style.backgroundColor='#404040';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn  botonpaneladmin paddingresponsive">Registrate</a>
         </div>
         <div class="col-md-5">
           <img class="featurette-image img-responsive center-block" src="images/inicio/llave.jpg" alt="Generic placeholder image">
