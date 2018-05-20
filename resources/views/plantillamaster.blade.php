@@ -90,7 +90,9 @@
             <!-- Start Navigation List -->
             <ul class="nav navbar-nav navbar-right">
               <li>
+                
                 <a href="{{ url('/inicio') }}">Inicio</a>
+                
               </li>
               <li>
                 <a href="{{ url('/eventospena') }}">Eventos Peña</a>

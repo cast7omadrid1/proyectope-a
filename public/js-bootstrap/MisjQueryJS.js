@@ -5,9 +5,14 @@
 /*el href donde estemos. Por defecto pone el primer 
 /* <a> como clase activa.
 /* ------------------------------------------ */
+//trim
+            
 $(document).ready(function(){
         var cambio = false;
         $('.nav li a').each(function(index) {
+            console.log(this.href.trim(),'trim');
+            //window
+            console.log(window.location,'/location');
             if(this.href.trim() == window.location){
                 $(this).addClass("active");
                 cambio = true;
