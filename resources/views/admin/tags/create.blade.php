@@ -23,12 +23,12 @@
 					
 							<!--botón submnit-->
 				    		<div class='form-group'>
-								{{Form::submit('Añadir tag',['class'=>'btn btn-primary'])}}
+								{{Form::submit('Añadir tag',['class'=>'btn btn-success'])}}
 							</div>
 					
 			
 	{{Form::close()}}
-	<a href="{{route('tags.listatags')}}" class="btn btn-primary"><span class="glyphicon glyphicon glyphicon-arrow-left"></span></a>
+	<a href="{{route('tags.listatags')}}" class="btn btn-success"><span class="glyphicon glyphicon glyphicon-arrow-left"></span></a>
 		 			</div>
 				</div>
 			</div>

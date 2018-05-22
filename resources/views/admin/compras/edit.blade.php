@@ -38,12 +38,12 @@
 						
 					<!--botón submnit-->
 		    		<div class='form-group'>
-						{{Form::submit('Editar compra',['class'=>'btn btn-primary'])}}
+						{{Form::submit('Editar compra',['class'=>'btn btn-success'])}}
 					</div>
 					
 			
 			{{Form::close()}}
-					<a href="{{route('compras.listacompras')}}" class="btn btn-primary"><span class="glyphicon glyphicon glyphicon-arrow-left"></span></a>
+					<a href="{{route('compras.listacompras')}}" class="btn btn-success"><span class="glyphicon glyphicon glyphicon-arrow-left"></span></a>
 		 			</div>
 
 				</div>

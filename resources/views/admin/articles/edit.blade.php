@@ -51,12 +51,12 @@
 
 									<!--botón submnit-->
 						    		<div class='form-group'>
-										{{Form::submit('Editar articulo',['class'=>'btn btn-primary'])}}
+										{{Form::submit('Editar articulo',['class'=>'btn btn-success'])}}
 									</div>
 						
 				
 				{{Form::close()}}
-				<a href="{{route('admin.listaarticulos')}}" class="btn btn-primary"><span class="glyphicon glyphicon glyphicon-arrow-left"></span></a>
+				<a href="{{route('admin.listaarticulos')}}" class="btn btn-success"><span class="glyphicon glyphicon glyphicon-arrow-left"></span></a>
 		 			</div>
 			 					</div>
 

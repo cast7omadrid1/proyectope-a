@@ -19,6 +19,21 @@ h2:hover{
   padding-left:350px;
 }
 
+.btn-success, .btn-success:active, .btn-success:visited {
+    background-color: #00D2A8 !important;
+    border-color: #00D2A8 !important;
+}
+
+.btn-success:hover{
+	background-color: #404040 !important;
+	border-color: #00D2A8 !important;
+ }
+
+ .panel-heading{
+ 	background-color: #00D2A8 !important;
+ 	color:#fff !important;
+ 	font-weight: bold !important;
+ }
 /*------------------------------------------*/
 /*	 02 - Estilos para tabla listados
 /*------------------------------------------*/

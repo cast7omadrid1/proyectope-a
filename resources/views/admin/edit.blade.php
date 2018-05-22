@@ -9,7 +9,7 @@
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
 		<div class="panel panel-default ">
-  			<div class="panel-heading sizetable">@yield('titulo')</div>
+  			<div class="panel-heading">@yield('titulo')</div>
   				<div class="panel-body ">
     			<!--Nombre-->
     				<div class='form-group'>
@@ -34,11 +34,11 @@
 
 					<!--botón submnit-->
 		    		<div class='form-group'>
-						{{Form::submit('Editar usuario',['class'=>'btn btn-primary'])}}
+						{{Form::submit('Editar usuario',['class'=>'btn btn-success'])}}
 					</div>
 					
 {{Form::close()}}
-					<a href="{{route('admin.listausuarios')}}" class="btn btn-primary"><span class="glyphicon glyphicon glyphicon-arrow-left"></span></a>
+					<a href="{{route('admin.listausuarios')}}" class="btn btn-success"><span class="glyphicon glyphicon glyphicon-arrow-left"></span></a>
 
   				</div>
 

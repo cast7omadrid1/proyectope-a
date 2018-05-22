@@ -22,6 +22,8 @@
     <link  rel = "stylesheet"  href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
     <!-- Responsive CSS Styles  -->
     <link rel="stylesheet" type="text/css" href="{{ URL::asset('css-bootstrap/responsive.css') }}" media="screen">
+    <!-- estilos propios  -->
+    <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/estilospropios.css') }}" media="screen">
 
 </head>
 <body>
