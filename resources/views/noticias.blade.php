@@ -94,11 +94,13 @@
  			<!--redes sociales-->
   			<div class="col-xs-6 col-md-4">
             
-              <!--Tiene que tener un ancho de 400px 500 alto-->
-              <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Flacasablancadezaragoza%2F%3Fref%3Dbookmarks&tabs=timeline&width=400px&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId=1389376781390269" width="400px" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" class="facebookiframe"></iframe>
-              
-              <a class="twitter-timeline twitter" data-lang="es" data-width="400" data-height="700" data-theme="light" href="https://twitter.com/SocceraddictsES?ref_src=twsrc%5Etfw">Tweets by SocceraddictsES</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
-
+	            <div class="facebook-container">
+	              <!--Tiene que tener un ancho de 400px 500 alto-->
+	              <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fsocceraddictses%2F&tabs=timeline&width=350&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=1389376781390269" width="350" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+	            </div>
+				<div class="twitter-container">
+	              <a class="twitter-timeline twitter" data-lang="es" data-width="350" data-height="700" data-theme="light" href="https://twitter.com/SocceraddictsES?ref_src=twsrc%5Etfw">Tweets by SocceraddictsES</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+				</div>
              
 	
             </div>

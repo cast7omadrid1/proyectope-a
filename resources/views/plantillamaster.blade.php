@@ -24,7 +24,7 @@
   <meta name="description" content="Margo - Responsive HTML5 Template">
   <meta name="author" content="GrayGrids">
 
-
+  <link  rel = "stylesheet"  href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
 
   <link  rel = "stylesheet"  href = "{{ URL::asset('asset/css/bootstrap.min.css') }}" >
 
@@ -81,8 +81,8 @@
               <i class="fa fa-bars"></i>
             </button>
             <!-- End Toggle Nav Link For Mobiles -->
-            <a class="navbar-brand" href="index.html">
-              <img alt="" src="images/margo.png">
+            <a class="navbar-brand" href="{{ url('/inicio') }}">
+              <img alt="" src="images\logos\logo-800px.png" class="img-responsive tamañoimg">
             </a>
           </div>
           <div class="navbar-collapse collapse">
@@ -263,8 +263,9 @@
         <div class="row footer-widgets">
           
             <div class="col-md-4 col-xs-12">
-              <h4><img src="images/logo.PNG" class="img-responsive tamañoimg" alt="Footer Logo" /></h4>
+              <h4><img src="images\logos\logo-800px-blanco.png" class="img-responsive tamañoimg" alt="Footer Logo" /></h4>
                 <ul>
+                  <br/>
                   <li><span>Número de teléfono:</span> +34 976 618 450</li>
                   <li><span>Email:</span> socceraddicts@gmail.com</li>
                   <li>https://www.socceraddicts.com</li>

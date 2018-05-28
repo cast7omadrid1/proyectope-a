@@ -88,7 +88,7 @@
 
 
                                   <div id="flotante_{{$article->id}}" style="display:none;">
-                                    <div id="close"><p><a href="javascript:cerrar(this, {{$article->id}});"><span class="glyphicon glyphicon-eye-close"></span></a></p></div>
+                                    <div id="close"><p><a href="javascript:cerrar(this, {{$article->id}});"><span class="glyphicon glyphicon-eye-open"></span></a></p></div>
                                     @foreach($article->comentario as $comentario)
                                       <ul>
                                         <li class="sizecomment"><b>{{$comentario->user->name}}</b> : {{$comentario->comentarios}}</li>

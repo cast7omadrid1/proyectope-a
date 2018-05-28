@@ -6,7 +6,7 @@
 
 
 <div class="col-xs-12">
-  <h4 class="classic-title tituloseccionorganigrama" onmouseover="javascript:this.style.color='#00D2A8';" onmouseout="javascript:this.style.color='#262626';"><span>Organigrama de la peña</span></h4>
+  <h4 class="classic-title tituloseccionorganigrama tituloseccion" onmouseover="javascript:this.style.color='#00D2A8';" onmouseout="javascript:this.style.color='#262626';"><span>Organigrama de la peña</span></h4>
 </div>
 
 
