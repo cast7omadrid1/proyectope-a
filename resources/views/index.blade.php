@@ -102,7 +102,7 @@
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">¡No te sientas solo! <span class="text-muted">¡Visitanos!</span></h2>
+          <h2 class="featurette-heading">¡No te sientas solo! <span class="text-muted">¡Visitanos y hazte socio!</span></h2>
           <p class="lead">Disfruta de un gran ambiente rodeados de amantes de tu deporte favorito y ve cada partido como si estuvieras en el estadio.</p>
           <hr><a href="{{ url('/contacto') }}" onmouseover="javascript:this.style.backgroundColor='#404040';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn  botonpaneladmin paddingresponsive">Contacto</a>
         </div>
