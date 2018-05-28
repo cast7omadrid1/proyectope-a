@@ -292,12 +292,11 @@
               <h4 class="">Siguenos<span class="head-line"></span></h4>
               <ul class="social-icons">
                 <li>
-                  <!--<a class="facebook" href="#"><i class="fa fa-facebook"></i></a>-->
-                  <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Flacasablancadezaragoza%2F&width=60px&layout=button_count&action=like&size=small&show_faces=true&share=true&height=46&appId=1389376781390269" width="180px" height="46" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                  <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fsocceraddictses&width=159&layout=button_count&action=like&size=small&show_faces=false&share=true&height=46&appId=1389376781390269" width="159" height="46" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
                 </li>
                 <li>
                   <!--Botón propio de twitter para twitter a través de la página web-->
-                  <a href="https://twitter.com/intent/tweet?screen_name=pmadridzaragoza&ref_src=twsrc%5Etfw" class="twitter-mention-button " data-related="" data-lang="es" data-show-count="false">Tweet de @pmadridzaragoza</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                  <a href="https://twitter.com/intent/tweet?screen_name=SocceraddictsES&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-related="" data-lang="es" data-show-count="false">Tweet de @SocceraddictsES</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                 </li>
                 <li>
                   <!--<a class="instgram" href="#"><i class="fa fa-instagram"></i></a>-->
