@@ -213,10 +213,7 @@ a.main-button, input[type="submit"]{
 .espacio{
 	padding-top: 30px;
 }
-/*tamaño logo*/
-.tamañoimg{
-	width: 200px;
-}
+
 
 
 /*------------------------------------------*/
@@ -241,4 +238,8 @@ a.main-button, input[type="submit"]{
 
 .paddingaccion{
 	padding-left: 800px;
+}
+
+.colorenlace{
+	color:#fff;
 }

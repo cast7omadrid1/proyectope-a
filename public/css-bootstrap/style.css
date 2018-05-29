@@ -33,7 +33,7 @@
 /*	     01 - General & Basic Styles
 /*------------------------------------------*/
 body {
-	font-family: 'Sans-Serif', sans-serif;
+	font-family: 'Quicksand', sans-serif;
 	font-size: 16px;
     line-height: 21px;
 	font-weight: 300;
@@ -1102,9 +1102,11 @@ ul.breadcrumbs li a {
 }
 
 label {
+	font-family: 'Quicksand', sans-serif;
+
 	font-size: 13px;
 	color: #666;
-	font-weight: 300;
+	font-weight: bold, 300;
 	cursor: pointer;
 }
 

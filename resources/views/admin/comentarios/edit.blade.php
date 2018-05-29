@@ -24,7 +24,7 @@
 			        	<div class="col-md-8 col-md-offset-2">
 
 							<div class="panel panel-default ">
-			  					<div class="panel-heading">@yield('titulo')</div>
+			  					<div class="panel-heading" style="padding-left: 10px">@yield('titulo')</div>
 			  					<div class="panel-body ">
 			  						<!--comentario-->
 									<div class="form-group">

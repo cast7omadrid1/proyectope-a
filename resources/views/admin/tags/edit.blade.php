@@ -22,7 +22,7 @@
 
 
 				<div class="panel panel-default ">
-		  			<div class="panel-heading">Editar tags</div>
+		  			<div class="panel-heading" style="padding-left: 10px">Editar tags</div>
 		  				<div class="panel-body ">
 							<div class="form-group">
 								{{Form::label('name','Nombre')}}

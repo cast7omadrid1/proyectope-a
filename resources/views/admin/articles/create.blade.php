@@ -13,8 +13,8 @@
         	<div class="col-md-8 col-md-offset-2">
 
 
-				<div class="panel panel-default ">
-		  			<div class="panel-heading">Añadir imagenes</div>
+				<div class="panel panel-default" >
+		  			<div class="panel-heading" style="padding-left: 10px">Añadir imagenes</div>
 		  			<div class="panel-body ">
 					<div class="form-group">
 						{{Form::label('title','Titulo')}}

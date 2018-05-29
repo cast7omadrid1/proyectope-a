@@ -13,7 +13,7 @@
 
 
 				<div class="panel panel-default ">
-		  			<div class="panel-heading">Añadir pagos</div>
+		  			<div class="panel-heading" style="padding-left: 10px">Añadir pagos</div>
 		  				<div class="panel-body ">
 							<div class="form-group">
 								{{Form::label('cantidad','Cantidad pago')}}

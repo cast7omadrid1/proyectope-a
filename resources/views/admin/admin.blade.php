@@ -20,6 +20,8 @@
   <!-- Page Description and Author -->
   <meta name="description" content="Margo - Responsive HTML5 Template">
   <meta name="author" content="GrayGrids">
+  
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet"> 
 
   <link  rel = "stylesheet"  href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
 

@@ -21,7 +21,7 @@
 
 
 				<div class="panel panel-default ">
-		  			<div class="panel-heading">Editar categorias</div>
+		  			<div class="panel-heading" style="padding-left: 10px">Editar categorias</div>
 		  				<div class="panel-body ">
 							<div class="form-group">
 								{{Form::label('name','Nombre')}}

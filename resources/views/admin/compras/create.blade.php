@@ -14,7 +14,7 @@
 
 
 				<div class="panel panel-default ">
-		  			<div class="panel-heading">Añadir compras</div>
+		  			<div class="panel-heading" style="padding-left: 10px">Añadir compras</div>
 		  			<div class="panel-body ">
 					<div class="form-group">
 						{{Form::label('producto','Producto')}}
