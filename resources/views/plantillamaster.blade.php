@@ -11,7 +11,7 @@
   
   
 
-  <link rel="shortcut icon" href="{{ URL::asset('images/icons/fav_ico.ico') }}"></link>
+  <link rel="shortcut icon" href="{{ URL::asset('images/icons/logo-ico.ico') }}"></link>
 
 
   <!-- Define Charset -->

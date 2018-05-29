@@ -119,6 +119,14 @@
 		padding-top: 80px;
 	}
 
+	/*color boton panel admin*/
+	.botonpaneladmin{
+		
+		background-color: #00D2A8;
+		color:white;
+		
+	}
+
 }
 	
 	
@@ -209,7 +217,7 @@
 		padding-top: 80px;
 	}
 
-
+	
 	.navbar-default .navbar-toggle, .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
 		background: #fff;
 		padding: 8px 5px 6px 5px;
@@ -244,7 +252,13 @@
 	}
 
 
-	
+	/*color boton panel admin*/
+	.botonpaneladmin{
+		
+		background-color: #00D2A8;
+		color:white;
+		
+	}
 
 
 
@@ -285,19 +299,27 @@
 
 	}
 	
-	/*tamaño tabla listado*/
-.sizetable{
+		/*tamaño tabla listado*/
+	.sizetable{
 
-	margin-left: 100px;
-	width: 90%;
-	padding-top: 150px;
-	
-}
+		margin-left: 100px;
+		width: 90%;
+		padding-top: 150px;
+		
+	}
 
-/*tamaño logo*/
-.tamañoimg{
-	width: 200px;
-}
+	/*tamaño logo*/
+	.tamañoimg{
+		width: 200px;
+	}
+
+	/*color boton panel admin*/
+	.botonpaneladmin{
+		
+		background-color: #00D2A8;
+		color:white;
+		
+	}
 
 	.navbar-top.affix .navbar-brand {
 		padding: 19px 15px; 
@@ -463,14 +485,14 @@
 		padding-right: 60px;
 	}
 
-	/*tamaño tabla listado*/
-.sizetable{
+		/*tamaño tabla listado*/
+	.sizetable{
 
-	margin-left: 100px;
-	width: 90%;
-	padding-top: 150px;
-	
-}
+		margin-left: 100px;
+		width: 90%;
+		padding-top: 150px;
+		
+	}
 	
   	.navbar-top.affix .navbar-brand {
 		padding: 19px 15px; 
@@ -839,6 +861,14 @@
 		height: 500px;
 	}
 
+	/*color boton panel admin*/
+	.botonpaneladmin{
+		
+		background-color: #00D2A8;
+		color:white;
+		
+	}
+
 }
 @media (max-width : 1024px) {
 	.support-main .su-content-wrap{
@@ -1120,6 +1150,24 @@
 	/*padding para el panel home*/
 	.paddinghomepanel{
 		padding-top: 80px;
+	}
+
+	/*tamaño tabla listado*/
+	.sizetable{
+
+		margin-left: 10px;
+		width: 90%;
+		padding-top: 150px;
+		
+	}
+
+	/*color boton panel admin*/
+	.botonpaneladmin{
+		
+		background-color: #00D2A8;
+		color:white;
+		margin-bottom: 20px;
+		
 	}
 
 }

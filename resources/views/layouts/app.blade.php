@@ -9,7 +9,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>Soccer addicts - @yield('titulo')</title>
-    <link rel="shortcut icon" href="images/icons/fav_ico.ico"></link>
+    <link rel="shortcut icon" href="{{ URL::asset('images/icons/logo-ico.ico') }}"></link>
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
