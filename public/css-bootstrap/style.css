@@ -643,7 +643,7 @@ ul.social-list li:last-child a i {
 }
 
 .navbar-default .navbar-nav > li > a {
-	color: #999;
+	color: #1a161a;
 	display: block;
     font-size: 14px;
 	font-weight: 300;
@@ -4208,7 +4208,7 @@ ul.post-meta li, ul.post-meta li a {
 /*------------------------------------------*/
 
 footer {
-	background-color: #222;
+	background-color: #1a161a;
     padding-top: 60px;
 	border-top: 4px solid #555;
 	color: #ccc;

@@ -17,7 +17,8 @@
 
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet"> 
     <!--iconos-->
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css" media="screen">
+    <!--<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css" media="screen">-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
     <link  rel = "stylesheet"  href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
     <!-- Responsive CSS Styles  -->

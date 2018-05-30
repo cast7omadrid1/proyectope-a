@@ -32,7 +32,8 @@
   <link rel="stylesheet" type="text/css" href="{{ URL::asset('css-bootstrap/slicknav.css') }}" media="screen">
 
   <!--Fuentes-->
- <link rel="stylesheet" href="{{ URL::asset('font-awesome/css/font-awesome.min.css') }}" type="text/css" media="screen">
+ <!--<link rel="stylesheet" href="{{ URL::asset('font-awesome/css/font-awesome.min.css') }}" type="text/css" media="screen">-->
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
  <!-- Margo CSS Styles  -->
  <link rel="stylesheet" type="text/css" href="{{ URL::asset('css-bootstrap/style.css') }}" media="screen">
@@ -215,7 +216,9 @@
                                             Home
                                         </a>
 
-                                  
+                                      <a href="{{ url('/inicio') }}">
+                                            Inicio
+                                      </a>
                                         <!--Nos envia al perfil del usuario-->
                                         <a href="{{route('user.profile') }}">
                                             Perfil usuario

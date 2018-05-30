@@ -54,8 +54,15 @@
             <!-- Classic Heading -->
             <h4 class="classic-title"><span>Información</span></h4>
 
-            <!-- Some Info -->
-            <p>¡Ven a visitarnos!</p>
+           
+            <!-- Classic Heading -->
+            <h4 class="classic-title"><span>¡Ven a visitarnos!</span></h4>
+
+            <!-- Info - List -->
+            <ul class="icons-list">
+              <li><i class="fa fa-euro">  </i> <strong>Hazte socio</strong> ¡por 50€ al año!</li>
+              <li></i> <strong>¡Informate!</strong> Envianos un email y te informaremos al respecto.</li>
+            </ul>
 
             <!-- Divider -->
             <div class="hr1" style="margin-bottom:10px;"></div>
@@ -63,8 +70,8 @@
             <!-- Info - Icons List -->
             <ul class="icons-list">
               <li><i class="fa fa-globe">  </i> <strong>Dirección:</strong> Emilio Castelar,81,50013</li>
-              <li><i class="fa fa-envelope-o"></i> <strong>Email:</strong> socceraddicts@gmail.com</li>
-              <li><i class="fa fa-mobile"></i> <strong>Teléfono:</strong> +34 976 618 450</li>
+              <li><i class="fa fa-envelope"></i> <strong>Email:</strong> socceraddicts@gmail.com</li>
+              <li><i class="fa fa-mobile-phone"></i> <strong>Teléfono:</strong> +34 976 618 450</li>
             </ul>
 
             <!-- Divider -->

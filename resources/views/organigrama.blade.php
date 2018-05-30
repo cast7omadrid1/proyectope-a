@@ -24,7 +24,7 @@
           <p>Presidente de la peña y primer miembro de la junta de la peña deportiva Soccer adicts</p>
           <ul class="social-list socialpresidente">
                 <li>
-                  <a class="facebook itl-tooltip anchoicono" data-placement="bottom" title="Facebook" href="#"><i class="fa fa-facebook"></i></a>
+                  <a class="facebook itl-tooltip anchoicono " data-placement="bottom" title="Facebook" href="#"><i class="fa fa-facebook-f "></i></a>
                 </li>
                 <li>
                   <a class="twitter itl-tooltip anchoicono" data-placement="bottom" title="Twitter" href="#"><i class="fa fa-twitter"></i></a>

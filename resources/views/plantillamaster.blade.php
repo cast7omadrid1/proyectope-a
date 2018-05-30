@@ -38,6 +38,7 @@
 
   <!--Fuentes-->
  <link rel="stylesheet" href="{{ URL::asset('font-awesome/css/font-awesome.min.css') }}" type="text/css" media="screen">
+<!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">-->
 
  <!-- Margo CSS Styles  -->
  <link rel="stylesheet" type="text/css" href="{{ URL::asset('css-bootstrap/style.css') }}" media="screen">
@@ -45,6 +46,7 @@
 
 <!-- Responsive CSS Styles  -->
 <link rel="stylesheet" type="text/css" href="{{ URL::asset('css-bootstrap/responsive.css') }}" media="screen">
+
 
 
 <!-- Css3 Transitions Styles  -->
@@ -133,7 +135,7 @@
                                 <ul class="dropdown-menu" role="menu">
                                     <li>
  
-                                        <a href="{{route('home') }}">
+                                        <a  href="{{route('home') }}">
                                             Home
                                         </a>
                                         @if (Auth::user()->user == 1 )
