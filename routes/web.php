@@ -57,6 +57,8 @@ Route::get('/userlogin','UserloginController@userlogin');
 //ruta para articulos
 Route::resource('eventospena','EventospenaController');
 
+//ruta para mostrar la galeria en zonamultimedia
+Route::get('/eventospena', 'EventospenaController@index')->name('eventospena');
 
 /*ruta para almacenar comentario*/
 Route::put('storecomentarios/{id}/store',[

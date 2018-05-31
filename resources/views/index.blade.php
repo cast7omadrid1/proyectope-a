@@ -127,7 +127,7 @@
         <div class="col-md-7 col-md-push-5">
           <h2 class="featurette-heading">¡Sube tus imágenes <span class="text-muted">a nuestra galería!</span></h2>
           <p class="lead">Sube tus fotografias en la peña a nuestra fantastica galería y disfruta del resto de fotográfias.</p>
-          <hr><a href="{{ url('/contacto') }}" onmouseover="javascript:this.style.backgroundColor='#404040';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn  botonpaneladmin paddingresponsive">Galería de imágenes</a>
+          <hr><a href="{{ url('/zonamultimedia') }}" onmouseover="javascript:this.style.backgroundColor='#404040';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn  botonpaneladmin paddingresponsive">Galería de imágenes</a>
         </div>
         <div class="col-md-5 col-md-pull-7">
           <img class="featurette-image img-responsive center-block" src="images/inicio/movil.jpg" alt="Generic placeholder image">

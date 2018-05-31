@@ -81,9 +81,9 @@ class EventospenaController extends Controller
 		
 		$comentarios->save();
 
-		flash('El comentario se ha creado correctamente, ve a Eventos Peña para comprobarlo ')->success();
+		flash('El comentario se ha creado correctamente')->success();
 
-		return redirect()->route('inicio');
+		return redirect()->route('eventospena');
 		
 		
 	}
