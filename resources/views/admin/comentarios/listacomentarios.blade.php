@@ -25,6 +25,7 @@
 						<th>Comentarios</th>
 						<th>Nombre articulo</th>
 						<th>Nombre usuario</th>
+						<th>Fecha</th>
 						<th>Acción</th>
 					</thead>
 					<tbody>
@@ -34,6 +35,7 @@
 								<td>{{$comentario->comentarios}}</td>
 								<td>{{$comentario->article->title}}</td>
 								<td>{{$comentario->user->name}}</td>
+								<td>{{$comentario->created_at}}</td>
 								<td>
 									<!--Botones para editar y eliminar articulos-->
 									<a href="{{route('admin.comentarios.edit', $comentario->id)}}" onmouseover="javascript:this.style.backgroundColor='#404040';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn  botonpaneladmin">Editar</a>

@@ -23,6 +23,7 @@
 					<thead>
 						<th>ID</th>
 						<th>Nombre</th>
+						<th>Fecha</th>
 						<th>Acción</th>
 					</thead>
 					<tbody>
@@ -30,6 +31,7 @@
 						<tr>
 							<td>{{$category->id}}</td>
 							<td>{{$category->name}}</td>
+							<td>{{$category->created_at}}</td>
 							<td>
 								<!--Botones para editar y eliminar categorias-->
 								<a href="{{route('admin.categories.edit',$category->id)}}" onmouseover="javascript:this.style.backgroundColor='#404040';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn  botonpaneladmin">Editar</a>

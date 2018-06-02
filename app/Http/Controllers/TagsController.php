@@ -7,6 +7,7 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\TagRequest;
 use App\Tag;
+use App\Article;
 use Laracast\Flash\Flash;
 
 class TagsController extends Controller
@@ -20,7 +21,15 @@ class TagsController extends Controller
     {
         //usamos el metodo Search para el buscador de tags
 
-        $tags=Tag::Search($request->name)->orderBy("id","ASC")->paginate(4);
+        $tags=Tag::Search($request->name)->orderBy("id","DESC")->paginate(4);
+
+        
+        $tags->each(function($tags){
+            
+            $tags->articles;
+           
+        });
+
         return view('admin.tags.listatags')->with('tags',$tags);
 
     }

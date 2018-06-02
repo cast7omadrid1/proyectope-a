@@ -59,6 +59,8 @@ class User extends Authenticatable
 
     }
 
+    
+
 
     public function scopeSearch($query, $name){
 

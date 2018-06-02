@@ -22,7 +22,8 @@
 				<table class="table table-striped table-hover">
 					<thead>
 						<th>ID</th>
-						<th>Nombre</th>
+						<th>Tags</th>
+						<th>Fecha</th>
 						<th>Acción</th>
 					</thead>
 					<tbody>
@@ -30,6 +31,7 @@
 						<tr>
 							<td>{{$tag->id}}</td>
 							<td>{{$tag->name}}</td>
+							<td>{{$tag->created_at}}</td>
 							<td>
 								<!--Botones para editar y eliminar tags-->
 								<a href="{{route('admin.tags.edit',$tag->id)}}" onmouseover="javascript:this.style.backgroundColor='#404040';" onmouseout="javascript:this.style.backgroundColor='#00D2A8';" class="btn  botonpaneladmin">Editar</a>
